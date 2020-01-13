@@ -1,0 +1,6 @@
+https://forum.qiime2.org/t/is-it-necessary-to-specify-p-trunc-len-when-training-a-feature-classifier-for-paired-end-reads/2100 - Is it necessary to specify p-trunc-len when training a feature classifier for paired-end reads?
+http://bioinformatics.cvr.ac.uk/blog/illumina-adapter-and-primer-sequences/ - llumina adapter and primer sequences
+https://forum.qiime2.org/t/confused-about-p-sampling-depth-and-and-p-max-depth/8482 - Confused about --p-sampling depth and and --p-max-depth
+https://forum.qiime2.org/t/understanding-beta-group-significance-permanova-pairwise-statistics/10396 - Understanding beta-group-significance permanova pairwise statistics
+https://docs.qiime2.org/2019.4/tutorials/longitudinal/ - Performing longitudinal and paired sample comparisons with q2-longitudinal
+https://forum.qiime2.org/t/interpreting-results-from-pairwise-kruskal-wallis/3336 - Interpreting results from pairwise Kruskal-Wallis

@@ -1,0 +1,1000 @@
+ 1082  man comm
+ 1083  which fastqc
+ 1084  fastqc -version
+ 1085  cd -
+ 1086  cd snpEff/
+ 1087  ls
+ 1088  java -jar snpEff.jar --help
+ 1089  bwa
+ 1090  minimap2
+ 1091  cd ../minimap2/
+ 1092  minimap2
+ 1093  ./minimap2
+ 1094  cd ../
+ 1095  java -jar picard.jar --help
+ 1096  java -jar picard.jar --version
+ 1097  ls
+ 1098  cd HiCapTools/
+ 1099  ls
+ 1100  cd bin
+ 1101  ls
+ 1102  ./HiCapTools 
+ 1103  ./HiCapTools ProbeDesigner
+ 1104  bamtools
+ 1105  ls
+ 1106  cd -
+ 1107  ls
+ 1108  nano README.md
+ 1109  which bamtools
+ 1110  nano README.md
+ 1111  #rm -rf HiCapTools
+ 1112  cd ..
+ 1113  sudo rm -rf HiCapTools
+ 1114  bamtools
+ 1115  which bamtools
+ 1116  cd HiCapTools_v1.0.0/
+ 1117  ls
+ 1118  gedit CMakeLists.txt
+ 1119  type bamtools
+ 1120  cmake
+ 1121  sudo apt-get install libbamtools-dev
+ 1122  which cmake
+ 1123  sudo sh buildHiCapTools.sh
+ 1124  sudo apt-get install build-essential cmake pkg-config
+ 1125  sudo apt-get install python2.7-dev python3.5-dev
+ 1126  sudo apt-get install python2.7-dev
+ 1127  ls
+ 1128  cd bamtools
+ 1129  ls
+ 1130  #/usr/bin/c++    -rdynamic CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/BackgroundInteractionFrequency.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/CallHiCUP.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/DesignProbes.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/Features.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/Find_Interactions.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/NegativeProbeDesign.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/ProbeDesignMain.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/ProbeFeatureClass.cpp.o CMakeFiles/HiCapTools.dir/src/Probes.cpp.o CMakeFiles/HiCapTools.dir/src/ProcessPairs.cpp.o CMakeFiles/HiCapTools.dir/src/ProxDetectMain.cpp.o CMakeFiles/HiCapTools.dir/src/Proximities.cpp.o CMakeFiles/HiCapTools.dir/src/RESitesCount.cpp.o CMakeFiles/HiCapTools.dir/src/RepeatOverlaps.cpp.o CMakeFiles/HiCapTools.dir/src/bioioMod.cpp.o CMakeFiles/HiCapTools.dir/src/main.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/alglibinternal.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/alglibmisc.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/ap.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/dataanalysis.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/diffequations.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/fasttransforms.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/integration.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/interpolation.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/linalg.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/optimization.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/solvers.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/specialfunctions.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/statistics.cpp.o  -o ../bin/HiCapTools -L /package/sequencer/bamtools/2.5.1/lib64/ -lbamtools -lz
+ 1131  /usr/bin/c++    -rdynamic CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/BackgroundInteractionFrequency.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/CallHiCUP.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/DesignProbes.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/Features.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/Find_Interactions.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/NegativeProbeDesign.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/ProbeDesignMain.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/ProbeFeatureClass.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/Probes.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/ProcessPairs.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/ProxDetectMain.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/Proximities.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/RESitesCount.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/RepeatOverlaps.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/bioioMod.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/main.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/alglibinternal.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/alglibmisc.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/ap.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/dataanalysis.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/diffequations.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/fasttransforms.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/integration.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/interpolation.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/linalg.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/optimization.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/solvers.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/specialfunctions.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/statistics.cpp.o  -o ../bin/HiCapTools -L /package/sequencer/bamtools/2.5.1/lib64/ -lbamtools -lz
+ 1132  cd ..
+ 1133  ls
+ 1134  echo $CFLAGS
+ 1135  cmake -G "Unix Makefiles" .. --debug-trycompile
+ 1136  mkdir build
+ 1137  cd build/
+ 1138  cmake -G "Unix Makefiles" .. --debug-trycompile
+ 1139  ls
+ 1140  #/usr/bin/c++    -rdynamic CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/BackgroundInteractionFrequency.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/CallHiCUP.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/DesignProbes.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/Features.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/Find_Interactions.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/NegativeProbeDesign.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/ProbeDesignMain.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/ProbeFeatureClass.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/Probes.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/ProcessPairs.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/ProxDetectMain.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/Proximities.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/RESitesCount.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/RepeatOverlaps.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/bioioMod.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/src/main.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/alglibinternal.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/alglibmisc.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/ap.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/dataanalysis.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/diffequations.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/fasttransforms.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/integration.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/interpolation.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/linalg.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/optimization.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/solvers.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/specialfunctions.cpp.o CMakeFiles/usr/local/bioinfx/HiCapTools_v1.0.0/ExterAlg/statistics.cpp.o  -o ../bin/HiCapTools -L /package/sequencer/bamtools/2.5.1/lib64/ -lbamtools -lz
+ 1141  cd CMakeFiles/
+ 1142  ls
+ 1143  #/usr/bin/c++    -rdynamic CMakeFiles/HiCapTools.dir/src/BackgroundInteractionFrequency.cpp.o CMakeFiles/HiCapTools.dir/src/CallHiCUP.cpp.o CMakeFiles/HiCapTools.dir/src/DesignProbes.cpp.o CMakeFiles/HiCapTools.dir/src/Features.cpp.o CMakeFiles/HiCapTools.dir/src/Find_Interactions.cpp.o CMakeFiles/HiCapTools.dir/src/NegativeProbeDesign.cpp.o CMakeFiles/HiCapTools.dir/src/ProbeDesignMain.cpp.o CMakeFiles/HiCapTools.dir/src/ProbeFeatureClass.cpp.o CMakeFiles/HiCapTools.dir/src/Probes.cpp.o CMakeFiles/HiCapTools.dir/src/ProcessPairs.cpp.o CMakeFiles/HiCapTools.dir/src/ProxDetectMain.cpp.o CMakeFiles/HiCapTools.dir/src/Proximities.cpp.o CMakeFiles/HiCapTools.dir/src/RESitesCount.cpp.o CMakeFiles/HiCapTools.dir/src/RepeatOverlaps.cpp.o CMakeFiles/HiCapTools.dir/src/bioioMod.cpp.o CMakeFiles/HiCapTools.dir/src/main.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/alglibinternal.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/alglibmisc.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/ap.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/dataanalysis.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/diffequations.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/fasttransforms.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/integration.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/interpolation.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/linalg.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/optimization.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/solvers.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/specialfunctions.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/statistics.cpp.o  -o ../bin/HiCapTools -L /package/sequencer/bamtools/2.5.1/lib64/ -lbamtools -lz
+ 1144  cd ..
+ 1145  /usr/bin/c++    -rdynamic CMakeFiles/HiCapTools.dir/src/BackgroundInteractionFrequency.cpp.o CMakeFiles/HiCapTools.dir/src/CallHiCUP.cpp.o CMakeFiles/HiCapTools.dir/src/DesignProbes.cpp.o CMakeFiles/HiCapTools.dir/src/Features.cpp.o CMakeFiles/HiCapTools.dir/src/Find_Interactions.cpp.o CMakeFiles/HiCapTools.dir/src/NegativeProbeDesign.cpp.o CMakeFiles/HiCapTools.dir/src/ProbeDesignMain.cpp.o CMakeFiles/HiCapTools.dir/src/ProbeFeatureClass.cpp.o CMakeFiles/HiCapTools.dir/src/Probes.cpp.o CMakeFiles/HiCapTools.dir/src/ProcessPairs.cpp.o CMakeFiles/HiCapTools.dir/src/ProxDetectMain.cpp.o CMakeFiles/HiCapTools.dir/src/Proximities.cpp.o CMakeFiles/HiCapTools.dir/src/RESitesCount.cpp.o CMakeFiles/HiCapTools.dir/src/RepeatOverlaps.cpp.o CMakeFiles/HiCapTools.dir/src/bioioMod.cpp.o CMakeFiles/HiCapTools.dir/src/main.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/alglibinternal.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/alglibmisc.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/ap.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/dataanalysis.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/diffequations.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/fasttransforms.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/integration.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/interpolation.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/linalg.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/optimization.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/solvers.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/specialfunctions.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/statistics.cpp.o  -o ../bin/HiCapTools -L /package/sequencer/bamtools/2.5.1/lib64/ -lbamtools -lz
+ 1146  cd -
+ 1147  cd HiCapTools.dir
+ 1148  ls
+ 1149  cd src
+ 1150  ls
+ 1151  cd ..
+ 1152  cd..
+ 1153  cd ..
+ 1154  sudo sh buildHiCapTools.sh
+ 1155  ls
+ 1156  cd DirCmake/
+ 1157  ls
+ 1158  #/usr/bin/c++    -rdynamic CMakeFiles/HiCapTools.dir/src/BackgroundInteractionFrequency.cpp.o CMakeFiles/HiCapTools.dir/src/CallHiCUP.cpp.o CMakeFiles/HiCapTools.dir/src/DesignProbes.cpp.o CMakeFiles/HiCapTools.dir/src/Features.cpp.o CMakeFiles/HiCapTools.dir/src/Find_Interactions.cpp.o CMakeFiles/HiCapTools.dir/src/NegativeProbeDesign.cpp.o CMakeFiles/HiCapTools.dir/src/ProbeDesignMain.cpp.o CMakeFiles/HiCapTools.dir/src/ProbeFeatureClass.cpp.o CMakeFiles/HiCapTools.dir/src/Probes.cpp.o CMakeFiles/HiCapTools.dir/src/ProcessPairs.cpp.o CMakeFiles/HiCapTools.dir/src/ProxDetectMain.cpp.o CMakeFiles/HiCapTools.dir/src/Proximities.cpp.o CMakeFiles/HiCapTools.dir/src/RESitesCount.cpp.o CMakeFiles/HiCapTools.dir/src/RepeatOverlaps.cpp.o CMakeFiles/HiCapTools.dir/src/bioioMod.cpp.o CMakeFiles/HiCapTools.dir/src/main.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/alglibinternal.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/alglibmisc.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/ap.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/dataanalysis.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/diffequations.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/fasttransforms.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/integration.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/interpolation.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/linalg.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/optimization.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/solvers.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/specialfunctions.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/statistics.cpp.o  -o ../bin/HiCapTools -L /package/sequencer/bamtools/2.5.1/lib64/ -lbamtools -lz
+ 1159  cd CMakeFiles
+ 1160  ls
+ 1161  cd HiCapTools.dir/
+ 1162  ls
+ 1163  cd src/
+ 1164  ls
+ 1165  cd ../../../
+ 1166  /usr/bin/c++    -rdynamic CMakeFiles/HiCapTools.dir/src/BackgroundInteractionFrequency.cpp.o CMakeFiles/HiCapTools.dir/src/CallHiCUP.cpp.o CMakeFiles/HiCapTools.dir/src/DesignProbes.cpp.o CMakeFiles/HiCapTools.dir/src/Features.cpp.o CMakeFiles/HiCapTools.dir/src/Find_Interactions.cpp.o CMakeFiles/HiCapTools.dir/src/NegativeProbeDesign.cpp.o CMakeFiles/HiCapTools.dir/src/ProbeDesignMain.cpp.o CMakeFiles/HiCapTools.dir/src/ProbeFeatureClass.cpp.o CMakeFiles/HiCapTools.dir/src/Probes.cpp.o CMakeFiles/HiCapTools.dir/src/ProcessPairs.cpp.o CMakeFiles/HiCapTools.dir/src/ProxDetectMain.cpp.o CMakeFiles/HiCapTools.dir/src/Proximities.cpp.o CMakeFiles/HiCapTools.dir/src/RESitesCount.cpp.o CMakeFiles/HiCapTools.dir/src/RepeatOverlaps.cpp.o CMakeFiles/HiCapTools.dir/src/bioioMod.cpp.o CMakeFiles/HiCapTools.dir/src/main.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/alglibinternal.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/alglibmisc.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/ap.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/dataanalysis.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/diffequations.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/fasttransforms.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/integration.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/interpolation.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/linalg.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/optimization.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/solvers.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/specialfunctions.cpp.o CMakeFiles/HiCapTools.dir/ExterAlg/statistics.cpp.o  -o ../bin/HiCapTools -L /package/sequencer/bamtools/2.5.1/lib64/ -lbamtools -lz
+ 1167  cd ../
+ 1168  ls
+ 1169  cd bin/
+ 1170  ls
+ 1171  ./HiCapTools 
+ 1172  cd ../../
+ 1173  cd
+ 1174  HiCapTools ProbeDesigner
+ 1175  source ~/.bashrc
+ 1176  HiCapTools ProbeDesigner
+ 1177  cd -
+ 1178  cd HiCapTools_v1.0.0/bin
+ 1179  ls
+ 1180  cd config
+ 1181  ls
+ 1182  gedit configFile.txt
+ 1183  gedit probeDesignConfig.txt
+ 1184  cd /var/crash
+ 1185  ls
+ 1186  sudo rm ./*
+ 1187  ls
+ 1188  sudo gedit /etc/default/apport &
+ 1189  sudo apt-get update
+ 1190  sudo apt-get upgrade
+ 1191  sudo apt-get update
+ 1192  sudo apt-get upgrade
+ 1193  sudo apt-get clean
+ 1194  sudo apt-get auto-remove
+ 1195  cd bioinf_projects/Catia_Cystophora-cristata/
+ 1196  ls
+ 1197  cd data/
+ 1198  ls
+ 1199  esearch -db assembly -query "Phoca vitulina[ORGN]" | efetch -format docsum | xtract -pattern DocumentSummary -element FtpPath_RefSeq |awk -F"/" '{print "curl -o "$NF"_genomic.fna.gz " $0"/"$NF"_genomic.fna.gz"}'
+ 1200  ls
+ 1201  #wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/004/348/235/GCA_004348235.1_GSC_HSeal_1.0/GCA_004348235.1_GSC_HSeal_1.0_genomic.fna.gz
+ 1202  cd seqs/
+ 1203  #wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/004/348/235/GCA_004348235.1_GSC_HSeal_1.0/GCA_004348235.1_GSC_HSeal_1.0_genomic.fna.gz
+ 1204  mkdir genome
+ 1205  wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/004/348/235/GCA_004348235.1_GSC_HSeal_1.0/GCA_004348235.1_GSC_HSeal_1.0_genomic.fna.gz
+ 1206  ls
+ 1207  sudo mv NC_008427.fasta genome/NC_008427.fasta
+ 1208  ls
+ 1209  sudo mv genome/NC_008427.fasta ./NC_008427.fasta
+ 1210  ls
+ 1211  sudo mv GCA_004348235.1_GSC_HSeal_1.0_genomic.fna.gz genome/GCA_004348235.1_GSC_HSeal_1.0_genomic.fna.gz 
+ 1212  ls
+ 1213  cd /usr/local/bioinfx/HiCapTools_v1.0.0/bin/
+ 1214  ls
+ 1215  cd -
+ 1216  cd /usr/local/bioinfx/HiCapTools_v1.0.0/bin/config/
+ 1217  ls
+ 1218  gedit probeDesignConfig.txt 
+ 1219  gedit ExperimentFile.txt 
+ 1220  cd -
+ 1221  #wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/004/348/235/GCA_004348235.1_GSC_HSeal_1.0/GCA_004348235.1_GSC_HSeal_1.0_genomic.fna.gz
+ 1222  ls
+ 1223  cd genome/
+ 1224  ls
+ 1225  wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/004/348/235/GCA_004348235.1_GSC_HSeal_1.0/GCA_004348235.1_GSC_HSeal_1.0_genomic.gff.gz
+ 1226  ls
+ 1227  bedtools
+ 1228  sudo apt install bedtools
+ 1229  which bedtools
+ 1230  gff2bed
+ 1231  sudo apt install bedops
+ 1232  gff2bed
+ 1233  ls
+ 1234  gunzip GCA_004348235.1_GSC_HSeal_1.0_genomic.gff.gz | gff2bed - \ > annotations.bed
+ 1235  ls
+ 1236  less annotations.bed
+ 1237  rm annotations.bed
+ 1238  wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/004/348/235/GCA_004348235.1_GSC_HSeal_1.0/GCA_004348235.1_GSC_HSeal_1.0_genomic.gff.gz | gunzip --stdout - | gff2bed - \ > annotations.bed
+ 1239  ls
+ 1240  gunzip --stdout - GCA_004348235.1_GSC_HSeal_1.0_genomic.gff.gz | gff2bed - | > annotations.bed
+ 1241  gunzip -f --stdout - GCA_004348235.1_GSC_HSeal_1.0_genomic.gff.gz | gff2bed - | > annotations.bed
+ 1242  gunzip -f GCA_004348235.1_GSC_HSeal_1.0_genomic.gff.gz | gff2bed - | > annotations.bed
+ 1243  ls annotations.bed
+ 1244  ls -l
+ 1245  rm annotations.bed
+ 1246  gff2bed < GCA_004348235.1_GSC_HSeal_1.0_genomic.gff > my_sorted_file.bed
+ 1247  ls -l
+ 1248  less my_sorted_file.bed
+ 1249  cd /usr/local/bioinfx/HiCapTools_v1.0.0/
+ 1250  cd bin
+ 1251  ls
+ 1252  cd config/
+ 1253  ls
+ 1254  less 
+ 1255  less ExperimentFile.txt
+ 1256  ls
+ 1257  cd ../
+ 1258  ls
+ 1259  cd
+ 1260  HiCapTools
+ 1261  HiCapTools ProbeDesigner --option -config bin/config/probeDesignConfig.txt
+ 1262  HiCapTools ProbeDesigner -o 'FeatureProbes' -config bin/config/probeDesignConfig.txt
+ 1263  HiCapTools -o 'FeatureProbes' -config bin/config/probeDesignConfig.txt
+ 1264  HiCapTools ProbeDesigner -o
+ 1265  HiCapTools ProbeDesigner
+ 1266  cd -
+ 1267  ./HiCapTools ProbeDesigner -o
+ 1268  ./HiCapTools ProbeDesigner -o 'FeatureProbes' -config bin/config/probeDesignConfig.txt
+ 1269  ./HiCapTools ProbeDesigner -o FeatureProbes -config bin/config/probeDesignConfig.txt
+ 1270  ./HiCapTools ProbeDesigner -o FeatureProbes
+ 1271  ./HiCapTools ProbeDesigner -o 'FeatureProbes'
+ 1272  cd ..
+ 1273  ls
+ 1274  cd bamtools/
+ 1275  ls
+ 1276  echo $PATH
+ 1277  awk '{if (NF == 5) {print $0} }'
+ 1278  awk -F: '{print $1}' /etc/passwd
+ 1279  awk '1; { print "" }'
+ 1280  awk '1; { print "" }' /etc/passwd
+ 1281  awk '1 {print}; {print "" }' /etc/passwd
+ 1282  awk '{ print }; { print "" }' /etc/passwd
+ 1283  awk '{ print } { print "" }'
+ 1284  awk '{ print }' /etc/passwd
+ 1285  awk '{ print }' { print "" } /etc/passwd
+ 1286  awk '{ print } { print "" }' /etc/passwd
+ 1287  awk '{ print; print "" }' /etc/passwd
+ 1288  awk '{ print $0 "\n" }' /etc/passwd
+ 1289  awk 'BEGIN { ORS="\n\n" }; 1' /etc/passwd
+ 1290  awk 'NF { print $0 "\n" }' /etc/passwd
+ 1291  awk '1; { print "\n" } /etc/passwd
+ 1292  awk '1; { print "\n" }' /etc/passwd
+ 1293  awk '{ print }; { print "\n" } ' /etc/passwd
+ 1294  awk ' { print }; { print "" } { print "" } /etc/passwd
+ 1295  awk ' { print }; { print "" } { print "" }' /etc/passwd
+ 1296  awk ' { print } { print "" } { print "" }' /etc/passwd
+ 1297  awk '{ print; print ""; print "" }' /etc/passwd
+ 1298  awk '{ print $0 "\n\n" }' /etc/passwd
+ 1299  awk '{ printf "%s ", $0 }' /etc/passwd
+ 1300  awk 'BEGIN { ORS=" " } { print }' /etc\passwd
+ 1301  awk 'BEGIN { ORS=" " } { print }' /etc/passwd
+ 1302  awk 'BEGIN { ORS=" " } 1' /etc/passwd
+ 1303  awk -v ORS=" " 1 /etc/passwd
+ 1304  awk '{ print FNR "\t 
+ 1305  awk '{ print FNR "\t" $0 }' /etc/passwd
+ 1306  #awk '{ print }; { print "\n" } ' /etc/passwd
+ 1307  awk '{ print FNR "\t" $0 }; { print "\n" }' /etc/passwd
+ 1308  awk '{ print NR "\t" }' /etc/passwd
+ 1309  awk '{ print NR "\t" $0}' /etc/passwd
+ 1310  awk '{ print NR "\t" $0; print "" }' /etc/passwd
+ 1311  awk '{ print FNR "\t" $0 }; { print "" }' /etc/passwd
+ 1312  awk '{ print FNR "\t" $0 }; { print "\n" }' /etc/passwd
+ 1313  awk '{ printf ("%d : %s\n", NR, $0) }' /etc/passwd
+ 1314  awk '{ printf ("%5d : %s\n", NR, $0) }' /etc/passwd
+ 1315  awk '{ printf ("%-5d : %s\n", NR, $0) }' /etc/passwd
+ 1316  awk '{ printf ("%5d : %s\n", NR, $0) }' /etc/passwd
+ 1317  awk 'NF { $0=++a " :" $0 }; { print }' /etc/passwd
+ 1318  python
+ 1319  awk '{ print NR }' /etc/passwd
+ 1320  awk 'END { print NR }' /etc/passwd
+ 1321  ls ./*.fasta
+ 1322  grep "^>" ./single_reads.fasta  -c
+ 1323  #export LD_LIBRARY_PATH=/usr/local/bioinfx/HiCapTools/bamtools/:$LD_LIBRARY_PATH
+ 1324  echo $LD_LIBRARY_PATH
+ 1325  PATH=$PATH:/usr/local/bioinfx/HiCapTools/bamtools/
+ 1326  HiCapTools
+ 1327  cd /usr/local/bioinfx/HiCapTools_v1.0.0/bin/
+ 1328  ls
+ 1329  ./HiCapTools ProbeDesigner -o 'FeatureProbes'
+ 1330  ./HiCapTools ProbeDesigner -o FeatureProbes -config bin/config/probeDesignConfig.txt
+ 1331  ls
+ 1332  ./HiCapTools ProbeDesigner -o FeatureProbes -config config/probeDesignConfig.txt
+ 1333  ls config
+ 1334  ./HiCapTools ProbeDesigner -o FeatureProbes -config config/probeDesignConfig.txt
+ 1335  cd 
+ 1336  HiCapTools ProbeDesigner -o FeatureProbes -config config/probeDesignConfig.txt
+ 1337  cd -
+ 1338  ./HiCapTools ProbeDesigner -o FeatureProbes -config config/probeDesignConfig.txt
+ 1339  gedit config/probeDesignConfig.txt
+ 1340  cp config/probeDesignConfig.txt ~/Downloads/
+ 1341  ls ~/Downloads/probeDesignConfig.txt
+ 1342  cd ../../
+ 1343  sudo rm -rf HiCapTools_v1.0.0
+ 1344  HiCapTools
+ 1345  git clone https://github.com/sahlenlab/HiCapTools.git
+ 1346  cd HiCapTools/
+ 1347  sudo sh buildHiCapTools.sh
+ 1348  ls
+ 1349  export PATH=/usr/local/bioinfx/HiCapTools/bamtools/:$PATH
+ 1350  echo $PATH
+ 1351  cd /usr/local/bioinfx/HiCapTools/
+ 1352  ls
+ 1353  echo $PATH
+ 1354  export PATH=/usr/local/bioinfx/HiCapTools/bamtools:$PATH
+ 1355  echo $PATH
+ 1356  cd bin
+ 1357  ls
+ 1358  ./HiCapTools
+ 1359  cd ..
+ 1360  bin/HiCapTools 
+ 1361  bamtools
+ 1362  which bamtools
+ 1363  conda create env catia
+ 1364  conda env catia
+ 1365  conda-env create catia
+ 1366  conda env create catia
+ 1367  conda create -env catia
+ 1368  conda create --name catia
+ 1369  conda activate catia
+ 1370  conda install -c bioconda bamtools=2.4.1
+ 1371  which bamtools
+ 1372  ./HiCapTools
+ 1373  bin/HiCapTools 
+ 1374  conda env create remove --name catia
+ 1375  conda deactivate catia
+ 1376  conda deactivate
+ 1377  conda activate
+ 1378  conda env create remove --name catia
+ 1379  conda env remove --name catia
+ 1380  conda deactivate
+ 1381  which bamtools
+ 1382  ls
+ 1383  cd bin
+ 1384  echo $PATH
+ 1385  mkdir ~/bioinf_projects/LBell_Eruca_sativa/analysis ~/bioinf_projects/LBell_Eruca_sativa/docs ~/bioinf_projects/LBell_Eruca_sativa/scripts
+ 1386  ls ~/bioinf_projects/LBell_Eruca_sativa/
+ 1387  locate BajunaGATKCertificateJul19.pdf
+ 1388  TOP
+ 1389  top
+ 1390  cd ~/bioinf_projects/Catia_Cystophora-cristata/data/seqs
+ 1391  ls
+ 1392  samtools faidx
+ 1393  samtools index
+ 1394  samtools faidx NC_008427.fasta
+ 1395  ls
+ 1396  export LD_LIBRARY_PATH=/usr/local/bioinfx/HiCapTools/bamtools/:$LD_LIBRARY_PATH
+ 1397  echo $LD_LIBRARY_PATH
+ 1398  cd /usr/local/bioinfx/HiCapTools/bamtools/
+ 1399  ls
+ 1400  cd ..
+ 1401  cp /usr/local/bioinfx/HiCapTools/bamtools/libbamtools.so.2.4.1 .
+ 1402  ls
+ 1403  echo $LD_LIBRARY_PATH
+ 1404  cd bin
+ 1405  ./HiCapTools 
+ 1406  ls
+ 1407  cd config/
+ 1408  ls
+ 1409  cp probeDesignConfig.txt probeDesignConfig.txt.sample
+ 1410  cp ~/Downloads/probeDesignConfig.txt .
+ 1411  ls
+ 1412  gedit probeDesignConfig.txt
+ 1413  cd ..
+ 1414  ./HiCapTools ProbeDesigner -o FeatureProbes -config config/probeDesignConfig.txt
+ 1415  ./HiCapTools ProbeDesigner -o 'FeatureProbes' -config config/probeDesignConfig.txt
+ 1416  ./HiCapTools ProbeDesigner -o FeatureProbes -config probeDesignConfig.txt
+ 1417  ./HiCapTools ProbeDesigner --option FeatureProbes 
+ 1418  ls
+ 1419  #./HiCapTools ProbeDesigner -o FeatureProbes -c chrAll -config config/probeDesignConfig.txt
+ 1420  ls
+ 1421  cd config/
+ 1422  ls
+ 1423  gedit probeDesignConfig.txt
+ 1424  ./HiCapTools ProbeDesigner -o FeatureProbes -c chrAll -config config/probeDesignConfig.txt
+ 1425  cd -
+ 1426  ./HiCapTools ProbeDesigner -o FeatureProbes -c chrAll -config config/probeDesignConfig.txt
+ 1427  ls ../
+ 1428  cd bin
+ 1429  ls
+ 1430  ls ../scripts/
+ 1431  gedit ../scripts/sortTranscriptFile.sh 
+ 1432  ./HiCapTools ProbeDesigner -o FeatureProbes -c chrAll -config config/probeDesignConfig.txt
+ 1433  ls
+ 1434  ./HiCapTools ProbeDesigner -o FeatureProbes -c chrAll -config config/probeDesignConfig.txt
+ 1435  ls config/
+ 1436  less config/probeDesignConfig.txt.sample
+ 1437  ./HiCapTools ProbeDesigner -o FeatureProbes -c chrAll -config config/probeDesignConfig.txt
+ 1438  less config/probeDesignConfig.txt.sample
+ 1439  ./HiCapTools ProbeDesigner -o FeatureProbes -c chrAll -config config/probeDesignConfig.txt
+ 1440  less config/probeDesignConfig.txt.sample
+ 1441  ./HiCapTools ProbeDesigner -o FeatureProbes -c chrAll -config config/probeDesignConfig.txt
+ 1442  ls
+ 1443  ls hiCUPDigester/
+ 1444  cp hiCUPDigester/hicup_digester .
+ 1445  cp hiCUPDigester/hicup_module.pm .
+ 1446  ls
+ 1447  ./HiCapTools ProbeDesigner -o FeatureProbes -c chrAll -config config/probeDesignConfig.txt
+ 1448  less config/probeDesignConfig.txt.sample
+ 1449  /--The file path to the Digested Genome File Name in txt format--/
+ 1450  Digested Genome File=/path/to/DigestedGenomeFileName.txt
+ 1451  #./HiCapTools ProbeDesigner -o FeatureProbes -c chrAll -config config/probeDesignConfig.txt
+ 1452  less config/probeDesignConfig.txt.sample
+ 1453  #./HiCapTools ProbeDesigner -o FeatureProbes -c chrAll -config config/probeDesignConfig.txt
+ 1454  rm hicup_digester hicup_module.pm
+ 1455  ls
+ 1456  less ProbeDesignLog_14.07.21_2019-08-05.log
+ 1457  rm ProbeDesignLog_14.07.21_2019-08-05.log
+ 1458  less ProbeDesignLog_14.09.54_2019-08-05.log
+ 1459  rm ProbeDesignLog_14.09.54_2019-08-05.log
+ 1460  less ProbeDesignLog_21.48.17_2019-08-05.log
+ 1461  rm ProbeDesignLog_21.48.17_2019-08-05.log
+ 1462  less ProbeDesignLog_21.51.20_2019-08-05.log
+ 1463  rm ProbeDesignLog_21.51.20_2019-08-05.log
+ 1464  ./HiCapTools ProbeDesigner -o FeatureProbes -c chrAll -config config/probeDesignConfig.txt
+ 1465  ls
+ 1466  less ProbeDesignLog_21.54.49_2019-08-05.log
+ 1467  rm ProbeDesignLog_21.54.49_2019-08-05.log
+ 1468  less ProbeDesignLog_21.55.42_2019-08-05.log
+ 1469  less ProbeDesignLog_22.02.06_2019-08-05.log
+ 1470  less ProbeDesignLog_22.05.37_2019-08-05.log
+ 1471  rm ProbeDesignLog_22.05.37_2019-08-05.log
+ 1472  ls
+ 1473  cd hiCUPDigester
+ 1474  ls
+ 1475  ./hicup_digester
+ 1476  ./hicup_digester --re1 ^GGGAC,BsmFI --genome NC_008427.1 --outdir /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/analysis/intermediate/hicaptool_probedesign/ /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta
+ 1477  ./hicup_digester --re1 ^GGGAC,BsmFI --genome NC_008427 --outdir /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/analysis/intermediate/hicaptool_probedesign/ /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta
+ 1478  cd ..
+ 1479  ./HiCapTools ProbeDesigner -o FeatureProbes -c chrAll -config config/probeDesignConfig.txt
+ 1480  ls ../
+ 1481  ls ../../
+ 1482  ls ../../capture_probe/
+ 1483  cd ../../capture_probe/
+ 1484  java -jar CaptureProbe.jar
+ 1485  cd -
+ 1486  #./hicup_digester --re1 ^GGGAC,BsmFI --genome NC_008427 --outdir /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/analysis/intermediate/hicaptool_probedesign/ /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta
+ 1487  ls
+ 1488  cd hiCUPDigester
+ 1489  ls
+ 1490  #./hicup_digester --re1 CACTGC,BtsI --genome NC_008427 --outdir /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/analysis/intermediate/hicaptool_probedesign/ /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta
+ 1491  ./hicup_digester
+ 1492  ./hicup_digester --re1 CACTGC,BtsI --genome NC_008427 --outdir /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/analysis/intermediate/hicaptool_probedesign/ /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta
+ 1493  ./hicup_digester --re1 ^CACTGC,BtsI --genome NC_008427 --outdir /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/analysis/intermediate/hicaptool_probedesign/ /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta
+ 1494  cd -
+ 1495  ./HiCapTools ProbeDesigner -o FeatureProbes -c chrAll -config config/probeDesignConfig.txt
+ 1496  ./hicup_digester --re2 A^AGCTTT,HindIII --genome NC_008427 --outdir /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/analysis/intermediate/hicaptool_probedesign/ /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta
+ 1497  cd -
+ 1498  ./hicup_digester --re2 A^AGCTTT,HindIII --genome NC_008427 --outdir /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/analysis/intermediate/hicaptool_probedesign/ /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta
+ 1499  ./hicup_digester
+ 1500  ./hicup_digester --re1 A^AGCTTT,HindIII --genome NC_008427 --outdir /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/analysis/intermediate/hicaptool_probedesign/ /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta
+ 1501  ./hicup_digester --re1 A^GATCT,BglII:A^AGCTTT,HindIII --genome NC_008427 --outdir /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/analysis/intermediate/hicaptool_probedesign/ /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta
+ 1502  ./hicup_digester --re1 A^AGCTTT,HindIII --genome NC_008427 --outdir /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/analysis/intermediate/hicaptool_probedesign/ /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta
+ 1503  ./hicup_digester --re2 A^AGCTTT,HindIII --genome NC_008427 --outdir /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/analysis/intermediate/hicaptool_probedesign/ /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta
+ 1504  ./hicup_digester --re1 A^AGCTTT,HindIII --genome NC_008427 --outdir /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/analysis/intermediate/hicaptool_probedesign/ /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta
+ 1505  ./hicup_digester --re1 A^GATCT,BglII:A^AGCTTT,HindIII --genome NC_008427 --outdir /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/analysis/intermediate/hicaptool_probedesign/ /home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta
+ 1506  cd -
+ 1507  ./HiCapTools ProbeDesigner -o FeatureProbes -c chrAll -config config/probeDesignConfig.txt
+ 1508  cd /usr/local/bioinfx/BOND/
+ 1509  ls
+ 1510  gedit readme.txt 
+ 1511  g++ -O3 -fopenmp bond.cpp -o bond
+ 1512  ls
+ 1513  ./bond ~/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta ~/bioinf_projects/Catia_Cystophora-cristata/data/seqs/out_file -length 60 -seqSim 85 -maxMatch 16
+ 1514  sudo ./bond ~/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta ~/bioinf_projects/Catia_Cystophora-cristata/data/seqs/out_file -length 60 -seqSim 85 -maxMatch 16
+ 1515  ulimit
+ 1516  ./bond ~/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta ~/bioinf_projects/Catia_Cystophora-cristata/data/seqs/out_file.bond -length 60 -seqSim 80 -maxMatch 16
+ 1517  ls
+ 1518  rm bond
+ 1519  ls
+ 1520  which g++
+ 1521  gcc -v
+ 1522  g== -v
+ 1523  g++ -v
+ 1524  gdb
+ 1525  cd /usr/local/bioinfx/
+ 1526  git clone "https://github.com/lindenb/jvarkit.git"
+ 1527  cd jvarkit
+ 1528  ls
+ 1529  ./gradlew vcffilterjs
+ 1530  ls
+ 1531  ls dist
+ 1532  cd ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/varscan/
+ 1533  less Galaxy72-[VarScan_mpileup_result_on_data_64].vcf
+ 1534  ps -x
+ 1535  sudo kill 2827
+ 1536  cd /usr/local/bioinfx/
+ 1537  ls
+ 1538  cd BOND/
+ 1539  ls
+ 1540  nano readme.txt
+ 1541  gedit readme.txt
+ 1542  cd ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants2/gatk
+ 1543  less README.txt
+ 1544  cd ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants2/gatk/assembled_genome/isec_result_wildtype_biofilm
+ 1545  less README.txt
+ 1546  less '/home/bajuna/Downloads/Eruca_sativa.novogene.exon.gtf' 
+ 1547  ssh bajuna@salx29
+ 1548  awk -F: '{ print $1 } { print "" }' /etc/passwd
+ 1549  awk -F: '{ print $1 "" }' /etc/passwd
+ 1550  awk -F: '{ print $1, "" }' /etc/passwd
+ 1551  awk -F: '{ print $1 " " }' /etc/passwd
+ 1552  awk -F: '{ print $1 "\n" }' /etc/passwd
+ 1553  awk '{print ". " $0 }' /etc/passwd
+ 1554  awk '{print NR ". " $0 }' /etc/passwd
+ 1555  awk '{print NR " : " $0 }' /etc/passwd
+ 1556  awk '{print NR " : " $0, "\n" }' /etc/passwd
+ 1557  awk '{print NR " : " $0, "\n\n" }' /etc/passwd
+ 1558  awk '{ print "" }1' /etc/passwd
+ 1559  awk '1' /etc/passwd
+ 1560  awk '{ print }' /etc/passwd
+ 1561  awk '{ print }; { print "" }' /etc/passwd
+ 1562  awk '{ print }1' /etc/passwd
+ 1563  awk '{ print ""}1' /etc/passwd
+ 1564  awk '{ print ""}' /etc/passwd
+ 1565  awk '{ print ""}1' /etc/passwd
+ 1566  awk '{ print $0 "\n" }'
+ 1567  awk '{ print $0 "\n" }' /etc/passwd
+ 1568  awk '{ print ""}; 1' /etc/passwd
+ 1569  awk '{ print ""} 1' /etc/passwd
+ 1570  awk 'BEGIN { ORS="\n\n" }; 1' /etc/passwd
+ 1571  awk 'BEGIN { ORS="\n\n" }1' /etc/passwd
+ 1572  awk 'BEGIN { ORS="\n\n" }; 1' /etc/passwd
+ 1573  sublime
+ 1574  top
+ 1575  sudo kill 24076
+ 1576  kill 24231
+ 1577  kill 24042
+ 1578  less '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/final.set.gff3.gff3' 
+ 1579  less '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.fa' 
+ 1580  zless '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/final_set_gff3.gff3.gz' 
+ 1581  ps
+ 1582  man ps
+ 1583  ps -e
+ 1584  kill 6556
+ 1585  cd /usr/local/bioinfx/
+ 1586  java -jar webin-cli.jar -context sequence -userName Webin-52335 -password 'imran_3013' -manifest /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/manifest.tab -outDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/analysis/webcli_out  -inpuDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/ -validate -submit -test 
+ 1587  java -jar webin-cli.jar -context sequence -userName Webin-52335 -password 'imran_3013' -manifest /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/manifest.tab -outputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/analysis/webcli_out  -inputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/ -validate -submit -test 
+ 1588  #java -jar webin-cli.jar -context genome -userName Webin-52335 -password 'imran_3013' -manifest /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/manifest.tab -outputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/analysis/webcli_out  -inputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/ -validate -submit -test 
+ 1589  zless '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.contigs.fa.gz' 
+ 1590  java -jar webin-cli.jar -context genome -userName Webin-52335 -password 'imran_3013' -manifest /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/manifest.tab -outputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/analysis/webcli_out  -inputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/ -validate -submit -test 
+ 1591  bgzip '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp' 
+ 1592  zless '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp.gz' 
+ 1593  zless '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.scaffolds.fa.gz' 
+ 1594  java -jar webin-cli.jar -context genome -userName Webin-52335 -password 'imran_3013' -manifest /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/manifest.tab -outputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/analysis/webcli_out  -inputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/ -validate -submit -test 
+ 1595  zless'/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp.gz' 
+ 1596  zless '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp.gz' 
+ 1597  gunzip /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp.gz
+ 1598  nano /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp
+ 1599  bgzip '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp' 
+ 1600  java -jar webin-cli.jar -context genome -userName Webin-52335 -password 'imran_3013' -manifest /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/manifest.tab -outputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/analysis/webcli_out  -inputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/ -validate -submit -test
+ 1601  zless '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp.gz' 
+ 1602  gunzip /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp.gz
+ 1603  gedit /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp
+ 1604  zless /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.scaffolds.fa.gz
+ 1605  gunzip /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.scaffolds.fa.gz
+ 1606  gedit /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.scaffolds.fa
+ 1607  nano /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.scaffolds.fa
+ 1608  bgzip '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.scaffolds_edited.fa' 
+ 1609  bgzip '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited.agp' 
+ 1610  java -jar webin-cli.jar -context genome -userName Webin-52335 -password 'imran_3013' -manifest /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/manifest.tab -outputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/analysis/webcli_out  -inputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/ -validate -submit -test
+ 1611  bgzip '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.scaffolds_edited.fa' 
+ 1612  bgzip '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited.agp' 
+ 1613  java -jar webin-cli.jar -context genome -userName Webin-52335 -password 'imran_3013' -manifest /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/manifest.tab -outputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/analysis/webcli_out  -inputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/ -validate -submit -test
+ 1614  gunzip /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.scaffolds_edited.fa.gz
+ 1615  gunzip /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited.agp.gz
+ 1616  sed -e '/fragment yes/ { N; d; }' /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited.agp > /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited_edited.agp
+ 1617  less /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited_edited.agp
+ 1618  sed -e '/yes/ { N; d; }' /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited.agp > /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited_edited.agp
+ 1619  less /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited_edited.agp
+ 1620  bgzip /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited_edited.agp
+ 1621  java -jar webin-cli.jar -context genome -userName Webin-52335 -password 'imran_3013' -manifest /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/manifest.tab -outputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/analysis/webcli_out  -inputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/ -validate -submit -test
+ 1622  less /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.scaffolds_edited.fa
+ 1623  bgzip /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.scaffolds_edited.fa
+ 1624  java -jar webin-cli.jar -context genome -userName Webin-52335 -password 'imran_3013' -manifest /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/manifest.tab -outputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/analysis/webcli_out  -inputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/ -validate -submit -test
+ 1625  zless /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited_edited.agp.gz.
+ 1626  zless /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited_edited.agp.gz
+ 1627  java -jar webin-cli.jar -context genome -userName Webin-52335 -password 'imran_3013' -manifest /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/manifest.tab -outputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/analysis/webcli_out  -inputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/ -validate -submit -test
+ 1628  java -jar webin-cli.jar -context genome -userName Webin-52335 -password 'imran_3013' -manifest /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/manifest.tab -outputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/analysis/webcli_out  -inputDir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/ -validate -submit
+ 1629  zless 
+ 1630  zless '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Annotations/Eruca_sativa_novogene_exon.gtf.gz' 
+ 1631  history > /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/script_bash.txt
+ 1632  zless /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.scaffolds_edited.fa.gz
+ 1633  zless '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_new1.agp.gz' 
+ 1634  less '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_new.agp' 
+ 1635  zless '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited_edited.agp.gz' 
+ 1636  less '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited.agp' 
+ 1637  less '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp' 
+ 1638  bgzip '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.scaffolds.fa' 
+ 1639  bgzip '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp' 
+ 1640  zless /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp.gz
+ 1641  gunzip '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp.gz' 
+ 1642  sed  '/^PGA_scaffold_/PGA_SCAFFOLD_/' /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp > /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited.agp
+ 1643  sed '/^PGA_scaffold_/PGA_SCAFFOLD_/' /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp > /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited.agp
+ 1644  sed -e '/^PGA_scaffold_/PGA_SCAFFOLD_/' /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp > /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited.agp
+ 1645  sed -i 's/^PGA_scaffold_/PGA_SCAFFOLD_/g' /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp > /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited.agp
+ 1646  less /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA_edited.agp
+ 1647  less /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp
+ 1648  bgzip /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp
+ 1649  zless /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp.gz
+ 1650  bgzip '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.scaffolds.fa.gz' 
+ 1651  zless '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.scaffolds.fa.gz' 
+ 1652  conda activate
+ 1653  artemis
+ 1654  art
+ 1655  act
+ 1656  history > /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/script_bash1.txt
+ 1657  blastall
+ 1658  blast
+ 1659  blast+
+ 1660  echo $PATH
+ 1661  blastn
+ 1662  zless '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.scaffolds_edited.fa.gz'
+ 1663  less '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/PGA.agp' 
+ 1664  cd /usr/local/bioinfx/
+ 1665  perl fasta2apg.pl /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.fa
+ 1666  fasta2apg.pl -i /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.fa -o /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/agp_files/
+ 1667  sudo fasta2apg.pl -i /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.fa -o /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/agp_files/
+ 1668  fasta2apg.pl -i /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.fa -o /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/agp_files/
+ 1669  sudo chmod 777 fasta2apg.pl
+ 1670  fasta2apg.pl -i /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.fa -o /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/agp_files/
+ 1671  gunzip /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.fa.gz
+ 1672  fasta2apg.pl -i /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.fa -o /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/agp_files/
+ 1673  mkdir /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/agp_files
+ 1674  fasta2apg.pl -i /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.fa -o /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/agp_files/
+ 1675  wget ftp://ftp.ncbi.nih.gov/toolbox/ncbi_tools/converters/by_program/agp_validate/linux64.agp_validate.gz
+ 1676  gunzip linux64.agp_validate.gz
+ 1677  sudo chmod +x linux64.agp_validate.gz
+ 1678  sudo chmod +x linux64.agp_validate
+ 1679  linux64.agp_validate '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/agp_files/PGA.agp'
+ 1680  wget ftp://ftp.ncbi.nih.gov/toolbox/ncbi_tools/converters/by_program/sqn2agp/linux64.sqn2agp.gz
+ 1681  gunzip linux64.sqn2agp.gz
+ 1682  sudo chmod +x linux64.sqn2agp
+ 1683  linux64.sqn2agp '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.fa' 
+ 1684  less linux64.sqn2agp
+ 1685  less /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.fa
+ 1686  linux64.sqn2agp -i '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.fa' -o /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.agp
+ 1687  linux64.sqn2agp -i '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.fa'
+ 1688  less '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.agp' 
+ 1689  #bgzip '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.agp' 
+ 1690  less '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.contigs.fsa' 
+ 1691  #bgzip '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.contigs.fsa' 
+ 1692  less '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.contig.sqn' 
+ 1693  grep '^>' '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.contigs.fsa' | wc -l
+ 1694  less '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.agp' 
+ 1695  less '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.contigs.fsa' 
+ 1696  less '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.agp' 
+ 1697  #bgzip '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.contigs.fsa' 
+ 1698  bgzip '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.contigs.fsa' 
+ 1699  bgzip '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.agp' 
+ 1700  gunzip '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Annotations/final_set_gff3.gff3.gz' 
+ 1701  less '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Annotations/final_set_gff3.gff3' 
+ 1702  git clone https://github.com/NBISweden/EMBLmyGFF3.git
+ 1703  cd EMBLmyGFF3/
+ 1704  ls
+ 1705  python setup.py install
+ 1706  sudo python setup.py install
+ 1707  ls
+ 1708  cd EMBLmyGFF3
+ 1709  ls
+ 1710  cd ../build/
+ 1711  ls
+ 1712  cd ..
+ 1713  EMBLmyGFF3 -h
+ 1714  EMBLmyGFF3 '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Annotations/final_set_gff3.gff3' '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.fa' -data_class STD --topology linear -molecule_type "genomic DNA" --transl_table 1 --species 'Eruca vesicaria subsp. sativa' --taxonomy 29727 --locus_tag LOCUSTAG --project_id PRJEB34051 -o /home/bajuna/bioinf_projects/LBell_Eruca_sativa/analysis/result_Eruca_sativa.embl
+ 1715  EMBLmyGFF3 '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Annotations/final_set_gff3.gff3' '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.fa' --data_class STD --topology linear -molecule_type "genomic DNA" --transl_table 1 --species 'Eruca vesicaria subsp. sativa' --taxonomy 29727 --locus_tag LOCUSTAG --project_id PRJEB34051 -o /home/bajuna/bioinf_projects/LBell_Eruca_sativa/analysis/result_Eruca_sativa.embl
+ 1716  EMBLmyGFF3 '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Annotations/final_set_gff3.gff3' '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.fa' --data_class STD --topology linear --molecule_type "genomic DNA" --transl_table 1 --species 'Eruca vesicaria subsp. sativa' --taxonomy 29727 --locus_tag LOCUSTAG --project_id PRJEB34051 -o /home/bajuna/bioinf_projects/LBell_Eruca_sativa/analysis/result_Eruca_sativa.embl
+ 1717  EMBLmyGFF3 '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Annotations/final_set_gff3.gff3' '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Eruca_sativa_novogene_genome.fa' --data_class STD --topology linear --molecule_type "genomic DNA" --transl_table 1 --species 'Eruca vesicaria subsp. sativa' --locus_tag LOCUSTAG --project_id PRJEB34051 -o /home/bajuna/bioinf_projects/LBell_Eruca_sativa/analysis/result_Eruca_sativa.embl
+ 1718  history > /home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/script_bash2.txt
+ 1719  ps -e
+ 1720  kill 4752
+ 1721  ps -e
+ 1722  kill 4682
+ 1723  awk -F: '$1=="bajuna"' /etc/passwd
+ 1724  awk -F: '$1=="bajuna" $1' /etc/passwd
+ 1725  awk -F: '$1=="bajuna", $1' /etc/passwd
+ 1726  awk -F: '$1=="bajuna" print $1' /etc/passwd
+ 1727  awk -F: '{ $1=="bajuna" print $1 }' /etc/passwd
+ 1728  awk -F: '{ $1=="bajuna" print; $1 }' /etc/passwd
+ 1729  awk -F: '{ $1=="bajuna"; print $1 }' /etc/passwd
+ 1730  awk '{ $1=="bajuna" }' /etc/passwd
+ 1731  awk '$1=="bajuna"' /etc/passwd
+ 1732  awk '$1 == "bajuna"' /etc/passwd
+ 1733  awk -F: '$1=="bajuna"' /etc/passwd
+ 1734  awk '$1=="bajuna"' /etc/passwd
+ 1735  awk -F: '$1=="bajuna"' /etc/passwd
+ 1736  awk -F: '{print $1}' /etc/passwd
+ 1737  sudo dpkg -i rasttk-v1.3.0.deb
+ 1738  sudo apt-get install rasttk-v1.3.0.deb
+ 1739  sudo apt-get install rasttk
+ 1740  sudo apt-get install rast
+ 1741  cd /usr/local/bioinfx/sas/modules/
+ 1742  ls
+ 1743  ./BUILD_MODULES
+ 1744  which perl
+ 1745  conda activate
+ 1746  snippy
+ 1747  cd /usr/local/bioinfx/
+ 1748  ls
+ 1749  cd snpEff/
+ 1750  ls
+ 1751  #java -jar snpEff.jar build -genbank -v 23146E_unicycler 
+ 1752  ls data
+ 1753  ls data/23146E_unicycler
+ 1754  java -jar snpEff.jar build -genbank -v 23146E_unicycler
+ 1755  conda activate
+ 1756  snippy
+ 1757  conda create --name new_ppoae
+ 1758  conda activate new_ppoae
+ 1759  conda install -c conda-forge -c bioconda -c defaults snippy
+ 1760  bgzip '/home/bajuna/bioinf_projects/LBell_Eruca_sativa/data/Annotations/final_set_gff3.gff3' 
+ 1761  top
+ 1762  kill 18972
+ 1763  kill 19420
+ 1764  kill 24823
+ 1765  kill 18912
+ 1766  pip2 install EMBL2checklists
+ 1767  sudo pip2 install EMBL2checklists
+ 1768  EMBL2checklists_CLI -H
+ 1769  EMBL2checklists_GUI
+ 1770  cd bin
+ 1771  ls
+ 1772  cd /usr/bin
+ 1773  ls
+ 1774  cd /usr/local/bin
+ 1775  ls
+ 1776  cd ../bioinfx/
+ 1777  ls
+ 1778  java -jar webin-cli.jar -h
+ 1779  java -jar webin-cli.jar
+ 1780  java -jar webin-cli.jar --help
+ 1781  cd Downloads/
+ 1782  mv blat /usr/local/bin/blat
+ 1783  sudo 
+ 1784  sudo mv blat /usr/local/bin/blat
+ 1785  blat
+ 1786  sudo blat
+ 1787  sudo chmod a+x /usr/local/bin/blat
+ 1788  cd
+ 1789  blat
+ 1790  cd -
+ 1791  cd /usr/local/bin/
+ 1792  wget http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/blat/gfClient
+ 1793  sudo wget http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/blat/gfClient
+ 1794  chmod a+x gfClient
+ 1795  sudo chmod a+x gfClient
+ 1796  gfClient
+ 1797  sudo wget http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/blat/gfServer
+ 1798  sudo chmod a+x gfServer
+ 1799  gfServer
+ 1800  sudo wget https://drive5.com/cgi-bin/upload3.py?license=2019082919495024251
+ 1801  cd ~/Downloads/
+ 1802  sudo mv usearch11.0.667_i86linux32 /usr/local/bin/usearch11.0.667_i86linux32
+ 1803  cd -
+ 1804  rm upload3.py?license=2019082919495024251
+ 1805  sudo rm upload3.py?license=2019082919495024251
+ 1806  ls usearch11.0.667_i86linux32
+ 1807  sudo chmod +x usearch11.0.667_i86linux32
+ 1808  sudo mv usearch11.0.667_i86linux32 usearch
+ 1809  bgzip '/home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants2/polished_ref_wildtypegbk/23148E_biofilm/snps.filt.vcf' 
+ 1810  tabix
+ 1811  tabix -p vcf /home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants2/polished_ref_wildtypegbk/23148E_biofilm/snps.filt.vcf.gz
+ 1812  bgzip '/home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants2/polished_ref_wildtypegbk/core.vcf' 
+ 1813  tabix -p vcf '/home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants2/polished_ref_wildtypegbk/core.vcf.gz' 
+ 1814  bgzip '/home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants2/polished_ref_wildtypegbk/23147E_aphid/aphid_snps.filt.vcf' 
+ 1815  tabix -p vcf '/home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants2/polished_ref_wildtypegbk/23147E_aphid/aphid_snps.filt.vcf.gz' 
+ 1816  bgzip '/home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants2/polished_ref_wildtypegbk/23148E_biofilm/biofilm_snps.vcf' 
+ 1817  tabix -p vcf '/home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants2/polished_ref_wildtypegbk/23148E_biofilm/biofilm_snps.vcf.gz' 
+ 1818  samtool index 
+ 1819  samtools index 
+ 1820  cd -
+ 1821  cd ~/bioinf_projects/Catia_Cystophora-cristata/data/seqs/
+ 1822  ls
+ 1823  less NC_008427.fasta
+ 1824  less NC_008427_copy.fasta
+ 1825  top
+ 1826  free -m
+ 1827  free -g
+ 1828  scp /home/bajuna/bioinf_projects/Jo/reciprocal_BLAST/db/all_genomes.fasta bajuna@salx29:/home/bajuna/blastdb/all_genomes.fasta
+ 1829  ssh bajuna@salx29
+ 1830  lf=$(ls *.fasta)
+ 1831  echo $lf
+ 1832  n=$(echo $lf | wc -l)
+ 1833  ech $n
+ 1834  echo $n
+ 1835  echo $lf
+ 1836  echo $lf | wc -l
+ 1837  man wc
+ 1838  echo $lf | wc -c
+ 1839  lf=$(ls -l *.fasta)
+ 1840  echo $lf
+ 1841  lf=$(ls -l ./*.fasta)
+ 1842  echo $lf
+ 1843  man ls
+ 1844  ls -l | grep "*.fasta" | wc
+ 1845  ls -l | grep "*.fasta"
+ 1846  ls -l | grep ".fasta"
+ 1847  ls -l
+ 1848  ls -l *.fasta
+ 1849  lf=$(ls -l *.fasta)
+ 1850  echo $lf
+ 1851  lf=$(ls -l | grep ".fasta")
+ 1852  echo $lf
+ 1853  lf=$(ls -l | grep ".fasta"| wc -l)
+ 1854  echo $lf
+ 1855  man wc
+ 1856  cp baits.fasta baits_copy.fasta
+ 1857  echo $lf
+ 1858  lf=$(ls -l | grep ".fasta"| wc -l)
+ 1859  echo $lf
+ 1860  mkdir ~/Desktop/JoBaker/seq ~/Desktop/JoBaker/seq/syn
+ 1861  cp ~/Desktop/JoBaker/aspm_blast.out ~/Desktop/JoBaker/seq/syn/aspm_blast.out
+ 1862  awk 'BEGIN { OFS = "\n"} {print ">" $1 $2, $3}' ~/Desktop/JoBaker/seq/syn/aspm_blast.out >~/Desktop/JoBaker/seq/syn/blast_aspm_out_fasta.txt
+ 1863  less ~/Desktop/JoBaker/seq/syn/blast_aspm_out_fasta.txt
+ 1864  rm ~/Desktop/JoBaker/seq/syn/blast_aspm_out_fasta.txt
+ 1865  awk 'BEGIN{FS="\t"; OFS="\n"}{gsub(/-/, "", $2); print ">"$1,$2}' ~/Desktop/JoBaker/seq/syn/aspm_blast.out > homologs.fasta
+ 1866  less homologs.fasta
+ 1867  rm homologs.fasta
+ 1868  cd galaxy
+ 1869  cd ..
+ 1870  conda -c prokka
+ 1871  conda -c env prokka
+ 1872  conda create --name prokka
+ 1873  conda activate prokka
+ 1874  conda install -c conda-forge -c bioconda -c defaults prokka
+ 1875  prokka --outdir ~/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype/ --prefix wildtype_genome ~/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype.fasta
+ 1876  less /home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype/wildtype_genome.gbk
+ 1877  less /home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype/wildtype_genome.gff
+ 1878  gedit /home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype/wildtype_genome.gff
+ 1879  #cp /home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype/wildtype_genome.gbk /usr/local/bioinfx/snpEff/data/
+ 1880  mkdir /usr/local/bioinfx/snpEff/data/polished_wildtype
+ 1881  cp /home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype/wildtype_genome.gbk /usr/local/bioinfx/snpEff/data/polished_wildtype/wildtype_genome.gbk
+ 1882  mv /usr/local/bioinfx/snpEff/data/polished_wildtype/wildtype_genome.gbk /usr/local/bioinfx/snpEff/data/polished_wildtype/genes.gbk
+ 1883  cp /home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype/wildtype_genome.faa /usr/local/bioinfx/snpEff/data/polished_wildtype/wildtype_genome.faa
+ 1884  mv /usr/local/bioinfx/snpEff/data/polished_wildtype/wildtype_genome.faa /usr/local/bioinfx/snpEff/data/polished_wildtype/proteins.faa
+ 1885  less /home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype/wildtype_genome.sqn
+ 1886  cd /usr/local/bioinfx/snpEff/
+ 1887  ls
+ 1888  gedit snpEff.config
+ 1889  java -jar snpEff.jar build -genbank -v polished_wildtype
+ 1890  cd -
+ 1891  #prokka --outdir ~/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype/ --prefix wildtype_genome ~/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype.fasta
+ 1892  mkdir ~/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype2
+ 1893  prokka --proteins /usr/local/bioinfx/snpEff/data/23146E_unicycler/genes.gbk --outdir ~/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype2/ --prefix wildtype_genome ~/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype.fasta
+ 1894  prokka --proteins /usr/local/bioinfx/snpEff/data/23146E_unicycler/genes.gbk --outdir ~/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype3/ --prefix wildtype_genome ~/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype.fasta
+ 1895  cd ~/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype3/
+ 1896  ls
+ 1897  less wildtype_genome.gbk
+ 1898  less wildtype_genome.gff
+ 1899  less /home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype2/wildtype_genome.gff
+ 1900  less /home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype/wildtype_genome.gff
+ 1901  gedit /home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/data/seq/polished_wildtype/wildtype_genome.gff
+ 1902  conda activate ppoae
+ 1903  snippy version
+ 1904  conda list
+ 1905  conda install snippy==4.4.0
+ 1906  snippy version
+ 1907  snippy --version
+ 1908  cd ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants2/snippy_core_reads_2
+ 1909  sh runme.sh 
+ 1910  cd ../snippy_mincov_10
+ 1911  sudo chmod +x runme.sh
+ 1912  sh runme.sh
+ 1913  cd -
+ 1914  zless '/home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/genome/GCA_004348235.1_GSC_HSeal_1.0_genomic.fna.gz' 
+ 1915  zcat '/home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/genome/GCA_004348235.1_GSC_HSeal_1.0_genomic.fna.gz' | grep '^>' | wc -l
+ 1916  zcat '/home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta'  grep '^>' | wc -l
+ 1917  cat '/home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/NC_008427.fasta' | grep '^>' | wc -l
+ 1918  gunzip '/home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/genome/GCA_004348235.1_GSC_HSeal_1.0_genomic.fna.gz' 
+ 1919  bgzip '/home/bajuna/bioinf_projects/Catia_Cystophora-cristata/data/seqs/genome/GCA_004348235.1_GSC_HSeal_1.0_genomic.fna' 
+ 1920  igv
+ 1921  cd /usr/local/bioinfx/
+ 1922  cd IGV_Linux_2.5.3/
+ 1923  ls
+ 1924  sh igv.sh 
+ 1925  conda activate ppoae
+ 1926  #'/home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants2/snippy_core_reads_2/runme.sh'
+ 1927  cd /home/bajuna/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants2/snippy_core_reads_2/
+ 1928  ls
+ 1929  sudo sh runme.sh
+ 1930  snippy
+ 1931  which perl
+ 1932  conda install -c conda-forge -c bioconda -c defaults snippy
+ 1933  snippy
+ 1934  nano home/bajuna/bin/anaconda2/envs/ppoae/bin/snippy
+ 1935  nano /home/bajuna/bin/anaconda2/envs/ppoae/bin/snippy
+ 1936  locate SeqIO.pm
+ 1937  export PATH=/home/bajuna/bin/anaconda2/envs/ppoae/bin/:${PATH}
+ 1938  echo PATH
+ 1939  echo $PATH
+ 1940  sippy
+ 1941  snippy
+ 1942  conda deactivate
+ 1943  conda activate
+ 1944  snippy
+ 1945  sudo sh runme.sh
+ 1946  snippy
+ 1947  bash runme.sh
+ 1948  sudo chmod +x runme.sh
+ 1949  sh runme.sh
+ 1950  conda remove snpEff
+ 1951  conda list
+ 1952  sh runme.sh
+ 1953  conda remove snpeff
+ 1954  pip uninstall snpeff
+ 1955  conda remove -n base snpeff4.3.1t
+ 1956  conda remove -n base snpeff
+ 1957  conda list
+ 1958  snippy --version
+ 1959  cd ../snippy_mincov_1
+ 1960  conda activate ppoae
+ 1961  #sh runme.sh
+ 1962  sudo chmod +x runme.sh
+ 1963  sh runme.sh
+ 1964  cd ../polished_ref_wildtype/
+ 1965  sudo chmod +x runme.sh
+ 1966  sh runme.sh
+ 1967  conda install -c conda-forge -c bioconda -c defaults prokka
+ 1968  cd ../polished_ref_wildtypegbk/
+ 1969  #sh runme.sh
+ 1970  sudo chmod +x runme.sh
+ 1971  sh runme.sh
+ 1972  art
+ 1973  conda activate
+ 1974  art
+ 1975  ssh bajuna@salx29
+ 1976  cd bioinf_projects/Jo/reciprocal_BLAST/
+ 1977  ls
+ 1978  cd -
+ 1979  cd bioinf_projects/Jo/reciprocal_BLAST/notebooks/
+ 1980  ls
+ 1981  conda activate
+ 1982  jupyter notebook
+ 1983  ssh bajuna@salx29
+ 1984  cd bioinf_projects/Yasmin_qiime2/data/raw_seq/
+ 1985  ls > ../sample_names.txt
+ 1986  cd ..
+ 1987  cat sample_names.txt > manifest.csv
+ 1988  cd -
+ 1989  cd
+ 1990  ls /home/bajuna/sample_names1/bioinf_projects/Yasmin_qiime2/data/raw_seq > /home/bajuna/sample_names1/bioinf_projects/Yasmin_qiime2/data/sample_names1.txt
+ 1991  ls /home/bajuna/bioinf_projects/Yasmin_qiime2/data/raw_seq > /home/bajuna/sample_names1/bioinf_projects/Yasmin_qiime2/data/sample_names1.txt
+ 1992  ls /home/bajuna/bioinf_projects/Yasmin_qiime2/data/raw_seq > /home/bajuna/bioinf_projects/Yasmin_qiime2/data/sample_names1.txt
+ 1993  awk '{"/home/bajuna/bioinf_projects/Yasmin_qiime2/data/", print $0}' /home/bajuna/bioinf_projects/Yasmin_qiime2/data/sample_names.txt > /home/bajuna/bioinf_projects/Yasmin_qiime2/data/manifest_1.csv
+ 1994  awk '{"/home/bajuna/bioinf_projects/Yasmin_qiime2/data/", print $0}' /home/bajuna/bioinf_projects/Yasmin_qiime2/data/sample_names.txt > /home/bajuna/bioinf_projects/Yasmin_qiime2/data/manifest_1.csv
+ 1995  sed -e 's/^/\/home\/bajuna\/bioinf_projects\/Yasmin_qiime2\/data\//' /home/bajuna/bioinf_projects/Yasmin_qiime2/data/sample_names.txt > /home/bajuna/bioinf_projects/Yasmin_qiime2/data/manifest_1.csv
+ 1996  cat > /home/bajuna/bioinf_projects/Yasmin_qiime2/script/prepare_manifest.sh
+ 1997  mkdir /home/bajuna/bioinf_projects/Yasmin_qiime2/script
+ 1998  cat > /home/bajuna/bioinf_projects/Yasmin_qiime2/script/prepare_manifest.sh
+ 1999  cd ~/bioinf_projects/Yasmin_qiime2/data/
+ 2000  ls
+ 2001  cd ../script
+ 2002  ls
+ 2003  cd ..
+ 2004  ls
+ 2005  cd scripts
+ 2006  ls
+ 2007  ls ../analysis/
+ 2008  conda activate
+ 2009  conda env list
+ 2010  conda activate qiime2-2019.4
+ 2011  sudo chmod +x QIIME2_DADA2_workflow_script_yasmin_denoizing.sh
+ 2012  bash QIIME2_DADA2_workflow_script_yasmin_denoizing.sh
+ 2013  sudo chmod +x QIIME2_DADA2_workflow_script_yasmin_denoizing.sh
+ 2014  bash QIIME2_DADA2_workflow_script_yasmin_denoizing.sh
+ 2015  sudo chmod +x QIIME2_DADA2_workflow_script_yasmin_denoizing.sh
+ 2016  bash QIIME2_DADA2_workflow_script_yasmin_denoizing.sh
+ 2017  sudo chmod +x QIIME2_DADA2_workflow_script_yasmin_denoizing.sh
+ 2018  bash QIIME2_DADA2_workflow_script_yasmin_denoizing.sh
+ 2019  mkdir ../analysis/dada2out
+ 2020  bash QIIME2_DADA2_workflow_script_yasmin_denoizing.sh
+ 2021  sudo chmod +x QIIME2_DADA2_workflow_script_yasmin_denoizing.sh
+ 2022  bash QIIME2_DADA2_workflow_script_yasmin_denoizing.sh
+ 2023  sudo chmod +x QIIME2_DADA2_workflow_script_yasmin_denoizing.sh
+ 2024  bash QIIME2_DADA2_workflow_script_yasmin_denoizing.sh
+ 2025  qiime feature-table tabulate-seqs
+ 2026  qiime feature-table tabulate-seqs --i-data ../analysis/rep_seqs_dada2.qza \ # The ‘rep-seqs-dada2.qza’ artifact contains the identified sequence variants
+ 2027  --o-visualization ../analysis/rep_seqs_dada2.qzv
+ 2028  --o-visualization ../analysis/rep_seqs_dada2.qzvqiime feature-table tabulate-seqs --i-data ../analysis/rep_seqs_dada2.qza --o-visualization ../analysis/rep_seqs_dada2.qzv
+ 2029  qiime feature-table tabulate-seqs --i-data ../analysis/rep_seqs_dada2.qza --o-visualization ../analysis/rep_seqs_dada2.qzv
+ 2030  qiime feature-table tabulate-seqs --i-data ../analysis/rep-seqs-dada2.qza --o-visualization ../analysis/rep-seqs-dada2.qzv
+ 2031  qiime tools view ../analysis/rep-seqs-dada2.qzv
+ 2032  qiime feature-table summarize --i-table ../analysis/table-dada2.qza --o-visualization ../analysis/table-dada2.qzv --m-sample-metadata-file ../data/metadata_yasmin.csv
+ 2033  qiime tools view ../analysis/table-dada2.qzv
+ 2034  qiime feature-table summarize --i-table ../analysis/table-dada2.qza --o-visualization ../analysis/table-dada2.qzv --m-sample-metadata-file ../data/metadata_yasmin_edited.csv
+ 2035  qiime tools view ../analysis/table-dada2.qzv
+ 2036  qiime feature-table summarize --i-table ../analysis/table-dada2.qza --o-visualization ../analysis/table-dada2.qzv --m-sample-metadata-file ../data/metadata_yasmin.csv
+ 2037  qiime tools view ../analysis/table-dada2.qzv
+ 2038  zless '/home/bajuna/bioinf_projects/Yasmin_qiime2/data/raw_seq/Apr_1_S5_R1_001.fastq.gz' 
+ 2039  zless '/home/bajuna/bioinf_projects/Yasmin_qiime2/data/raw_seq/Apr_1_S5_R2_001.fastq.gz' 
+ 2040  zless '/home/bajuna/bioinf_projects/Yasmin_qiime2/data/raw_seq/Apr_1_S5_R1_001.fastq.gz' 
+ 2041  qiime tools import --input-path ../analysis/99_otus.fasta --output-path ../analysis/gg-13-8.99_otus.qza --type 'FeatureData[Sequence]'
+ 2042  qiime tools import --input-path ../analysis/99_otu_taxonomy.txt --output-path ../analysis/gg-13-8.99.taxa.qza --source-format HeaderlessTSVTaxonomyFormat --type 'FeatureData[Taxonomy]'
+ 2043  qiime tools import --input-path ../analysis/99_otu_taxonomy.txt --output-path ../analysis/gg-13-8.99.taxa.qza --input-format HeaderlessTSVTaxonomyFormat --type 'FeatureData[Taxonomy]'
+ 2044  qiime feature-classifier classify-sklearn
+ 2045  qiime feature-classifier fit-classifier-naive-bayes --i-reference-reads ../analysis/gg-13-8.99.ref.seqs.qza --i-reference-taxonomy ../analysis/gg-13-8.99.ref.taxa.qza --o-classifier ../analysis/classifier.trained.qza
+ 2046  #qiime feature-classifier extract-reads --i-sequences ../analysis/gg-13-8.99_otus.qza --p-f-primer NNNNNGTGCCAGCMGCCGCGGTAA --p-r-primer GGACTACHVGGGTWTCTAAT --o-reads gg-13-8.99.ref.seqs.qza
+ 2047  qiime feature-classifier extract-reads
+ 2048  #qiime feature-classifier fit-classifier-naive-bayes --i-reference-reads ../analysis/gg-13-8.99.ref.seqs.qza --i-reference-taxonomy ../analysis/gg-13-8.99.taxa.qza --o-classifier ../analysis/classifier.trained.qza
+ 2049  qiime feature-classifier fit-classifier-naive-bayes --i-reference-reads ../analysis/gg-13-8.99.ref.seqs.qza --i-reference-taxonomy ../analysis/gg-13-8.99.taxa.qza --o-classifier ../analysis/classifier.trained.qza
+ 2050  qiime feature-classifier classify-sklearn --i-classifier ../analysis/classifier.trained.qza --p-confidence 0.7 --i-reads ../analysis/rep-seqs-dada2.qza --o-classification ../analysis/taxonomy.sklearn.qza
+ 2051  qiime taxa barplot --i-table ../analysis/table-dada2.qza --i-taxonomy ../analysis/taxonomy.sklearn.qza --m-metadata-file ../data/metadata_yasmin.csv --o-visualization ../analysis/taxa-bar-plots.dada2.qzv
+ 2052  qiime tools view ../analysis/taxa-bar-plots.dada2.qzv
+ 2053  bash QIIME2_DADA2_workflow_script_yasmin_ptree.sh
+ 2054  qiime diversity alpha-rarefaction
+ 2055  bash QIIME2_DADA2_workflow_script_yasmin_seq_depth_evaluation.sh
+ 2056  qiime diversity alpha-group-significance
+ 2057  qiime diversity alpha-correlation
+ 2058  bash QIIME2_DADA2_workflow_script_yasmin_alpha_beta_analysis.sh
+ 2059  #qiime diversity core-metrics-phylogenetic --i-table ../analysis/table-dada2.qza --i-phylogeny ../analysis/rooted-tree.qza --p-sampling-depth 1500 --output-dir ../analysis/dada2-diversity-1500 --m-metadata-file ../data/metadata_yasmin.csv
+ 2060  mkdir ../analysis/dada2-diversity-1500
+ 2061  qiime diversity core-metrics-phylogenetic --i-table ../analysis/table-dada2.qza --i-phylogeny ../analysis/rooted-tree.qza --p-sampling-depth 1500 --output-dir ../analysis/dada2-diversity-1500 --m-metadata-file ../data/metadata_yasmin.csv
+ 2062  qiime diversity alpha-group-significance --i-alpha-diversity ../analysis/dada2-diversity-1500/shannon_vector.qza --m-metadata-file ../data/metadata_yasmin.csv --o-visualization ../analysis/dada2-diversity-1500/shannon-group-significance.kw.qzv
+ 2063  #qiime diversity alpha-group-significance --i-alpha-diversity ../analysis/dada2-diversity-1500/shannon_vector.qza --m-metadata-file ../data/metadata_yasmin.csv --o-visualization ../analysis/dada2-diversity-1500/shannon-group-significance.kw.qzv
+ 2064  bash QIIME2_DADA2_workflow_script_yasmin_alpha_beta_analysis.sh
+ 2065  qiime diversity core-metrics-phylogenetic --i-table ../analysis/table-dada2.qza --i-phylogeny ../analysis/rooted-tree.qza --p-sampling-depth 1500 --output-dir ../analysis/dada2-diversity-1500 --m-metadata-file ../data/metadata_yasmin.csv
+ 2066  qiime diversity core-metrics-phylogenetic --i-table ../analysis/table-dada2.qza --i-phylogeny ../analysis/rooted-tree.qza --p-sampling-depth 1500 --output-dir ../analysis/dada2-diversity-1500 --m-metadata-file ../data/metadata_yasmin.tsv
+ 2067  #qiime diversity core-metrics-phylogenetic --i-table ../analysis/table-dada2.qza --i-phylogeny ../analysis/rooted-tree.qza --p-sampling-depth 1500 --output-dir ../analysis/dada2-diversity-1500 --m-metadata-file ../data/metadata_yasmin.tsv
+ 2068  cd ../data/
+ 2069  ls metadata_yasmin.tsv
+ 2070  cd -
+ 2071  qiime diversity core-metrics-phylogenetic --i-table ../analysis/table-dada2.qza --i-phylogeny ../analysis/rooted-tree.qza --p-sampling-depth 1500 --output-dir ../analysis/dada2-diversity-1500 --m-metadata-file ../data/metadata_yasmin.tsv
+ 2072  bash QIIME2_DADA2_workflow_script_yasmin_alpha_beta_analysis.sh
+ 2073  qiime diversity alpha-group-significance --i-alpha-diversity ../analysis/dada2-diversity-1500/shannon_vector.qza --m-metadata-file ../data/metadata_yasmin.tsv --o-visualization ../analysis/dada2-diversity-1500/shannon-group-significance.kw.qzv
+ 2074  qiime diversity alpha-correlation --i-alpha-diversity shannon_vector.qza --m-metadata-file ../data/metadata_yasmin.tsv --o-visualization ../analysis/dada2-diversity-1500/shannon-group-significance.rs.qzv
+ 2075  qiime diversity alpha-correlation --i-alpha-diversity ../analysis/dada2-diversity-1500/shannon_vector.qza --m-metadata-file ../data/metadata_yasmin.tsv --o-visualization ../analysis/dada2-diversity-1500/shannon-group-significance.rs.qzv
+ 2076  qiime diversity beta-group-significance --i-distance-matrix ../analysis/dada2-diversity-1500/weighted_unifrac_distance_matrix.qza --m-metadata-file ../data/metadata_yasmin.tsv --m-metadata-column Group --p-method permanova --p-pairwise --p-permutations 999 --o-visualization ../analysis/dada2-diversity-1500/weighted-unifrac-significance.Group.qzv
+ 2077  qiime diversity beta-group-significance --i-distance-matrix ../analysis/dada2-diversity-1500/weighted_unifrac_distance_matrix.qza --m-metadata-file ../data/metadata_yasmin.tsv --m-metadata-column Time_in_chamber --p-method permanova --p-pairwise --p-permutations 999 --o-visualization ../analysis/dada2-diversity-1500/weighted-unifrac-significance.Time_in_chamber.qzv
+ 2078  qiime diversity beta-group-significance --i-distance-matrix ../analysis/dada2-diversity-1500/weighted_unifrac_distance_matrix.qza --m-metadata-file ../data/metadata_yasmin.tsv --m-metadata-column Treatment_ambient_recoded_temperature --p-method permanova --p-pairwise --p-permutations 999 --o-visualization ../analysis/dada2-diversity-1500/weighted-unifrac-significance.Treatment_ambient_recoded_temperature.qzv
+ 2079  qiime diversity beta-group-significance --i-distance-matrix ../analysis/dada2-diversity-1500/weighted_unifrac_distance_matrix.qza --m-metadata-file ../data/metadata_yasmin.tsv --m-metadata-column Set_reactor_temperature --p-method permanova --p-pairwise --p-permutations 999 --o-visualization ../analysis/dada2-diversity-1500/weighted-unifrac-significance.Set_reactor_temperature.qzv
+ 2080  bash QIIME2_DADA2_workflow_script_yasmin_alpha_beta_analysis_837.sh
+ 2081  history > bash_script2.txt
