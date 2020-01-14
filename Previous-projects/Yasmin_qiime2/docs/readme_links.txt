@@ -25,3 +25,4 @@ https://www.researchgate.net/post/What_is_the_purpose_of_a_Permanova_test_specif
 https://drive5.com/usearch/manual/rare.html - Rarefaction
 https://www.researchgate.net/post/Why_does_my_rarefaction_curve_show_more_observed_OTUs_than_my_biom_file_that_is_generated_from_QIIME - Why does my rarefaction curve show more observed OTUs than my biom file that is generated from QIIME?
 https://forum.qiime2.org/t/how-to-select-a-sampling-depth/4265 - How to select a Sampling-depth
+
