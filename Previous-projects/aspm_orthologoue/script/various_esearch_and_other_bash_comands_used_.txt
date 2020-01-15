@@ -1,0 +1,384 @@
+   xsltproc -\-novalid blast2fasta.xsl /home/bajuna/Desktop/JoBaker/filtered_aspm_blast_hits_run2.xml >  /home/bajuna/Desktop/JoBaker/blast_out_fasta_filtered_aspm_run2.fasta
+   ls
+   cd /home/bajuna/Desktop/JoBaker
+   ls
+   xsltproc -\-novalid blast2fasta.xsl /home/bajuna/Desktop/JoBaker/filtered_aspm_blast_hits_run2.xml >  /home/bajuna/Desktop/JoBaker/blast_out_fasta_filtered_aspm_run2.fasta
+   gedit /home/bajuna/Desktop/JoBaker/blast_out_fasta_filtered_aspm_run2.fasta &
+   less /home/bajuna/Desktop/JoBaker/blast_out_fasta_filtered_aspm_run2.fasta
+   gedit /home/bajuna/Desktop/JoBaker/filtered_aspm_blast_hits_run2.xml &
+   xsltproc -\-novalid blast2fasta.xsl /home/bajuna/Desktop/JoBaker/filtered_aspm_blast_hits_run2.xml >  /home/bajuna/Desktop/JoBaker/blast_out_fasta_filtered_aspm_run2.fasta
+   less '/home/bajuna/Desktop/JoBaker/blast_out_fasta_filtered_aspm_run2.fasta' 
+   grep "^>" /home/bajuna/Desktop/JoBaker/blast_out_fasta_filtered_aspm_run2.fasta | wc -l
+   gedit /home/bajuna/Desktop/JoBaker/blast_out_fasta_filtered_aspm_run2.fasta 
+   cd -
+   python filtere_predicted_aspm_seq.py
+   python filter_predicted_aspm_seq.py
+   awk '/^>/{f=!d[$1];d[$1]=1}f' /home/bajuna/Desktop/JoBaker/aspm_filterered_out_predicted_seq.fasta > /home/bajuna/Desktop/JoBaker/aspm_filterered_out_predicted_removed_duplicates_seq.fasta
+   cd -
+   ls
+   cd -
+   ls
+   ls -l
+   less test_filter_aspm.fasta
+   gedit test_filter_aspm.fasta
+   fastx
+   ls -l
+   less /home/bajuna/bioinf_projects/Jo/script/test_filter_aspm2.fasta
+   ls -l
+   less fasta.no.duplicates.fa
+   rm fasta.no.duplicates.fa
+   less test_filter_aspm1.fasta
+   less test_filter_aspm.fasta
+   gedit test_filter_aspm.fasta
+   ls -
+   ls -l
+   ~/Desktop/JoBaker
+   cd ~/Desktop/JoBaker
+   cd -
+   less filtered_aspm.fasta
+   grep "^>" filtered_aspm.fasta | wc -l
+   cd -
+   ls -l
+   grep "^>" blast_out_filtered_only_with_aspm.fasta | wc -l
+   grep "^>" aspm_filterered_out_predicted_seq.fasta | wc -l
+   cd -
+   ls -l
+   less fasta.no.duplicates.fasta
+   ls -l
+   less test_filter_aspm3.fasta
+   ls -l
+   gedit fasta.no.duplicates.fasta
+   gedit test_filter_aspm3.fasta
+   ls -l
+   gedit fasta.no.duplicates.fasta
+   gedit test_filter_aspm3.fasta
+   ls -l
+   gedit fasta.no.duplicates.fasta
+   cd ~/Desktop/JoBaker
+   ls -l
+   gedit aspm_filterered_out_predicted_seq.fasta
+   grep "^>" aspm_filterered_out_predicted_seq.fasta | wc -l
+   ls -l
+   gedit aspm_fasta.no.duplicates.fasta
+   #use entrez direct (edirect) to search for gene / protein (aspm) and retrieve its sequences from ncbi databases
+   #esearch -db gene -query "ASPM" | elink -target protein | efilter -query "REVIEWED[FILTER]" | efetch -format fasta > initial_gene_aspm_seq.fasta
+   elink -target
+   #esearch -db gene -query "abnormal spindle[group] AND srcdb_refseq" | elink -target protein | efilter -query "REVIEWED[FILTER]" | efetch -format fasta > initial_gene_aspm_seq.fasta
+   esearcg -db gene -query "ASPM[Symbol] AND human[organism]" | esummary -db gene | xtract -pattern DocumentSummary -element'Id,Name,Description'
+   esearch -db gene -query "ASPM[Symbol] AND human[organism]" | esummary -db gene | xtract -pattern DocumentSummary -element'Id,Name,Description'
+   esearch -db gene -query "ASPM[Symbol] AND human[organism]" | esummary -db gene | xtract -pattern DocumentSummary -element 'Id,Name,Description'
+   #esearch -db gene -query "ortholog_gene_259266[group] AND srcdb_refseq_known[properties]" | efetch -db gene -format fasta > known_human_ortholog_gene_aspm_seq.fasta
+   ls -l known_human_ortholog_gene_aspm_seq.fasta
+   esearch -db gene -query "ortholog_gene_259266[group] AND srcdb_refseq_known[properties]" | efetch -db gene -format fasta > known_human_ortholog_gene_aspm_seq.fasta
+   ls -l known_human_ortholog_gene_aspm_seq.fasta
+   gedit known_human_ortholog_gene_aspm_seq.fasta
+   esearch -db gene -query "ortholog_gene_259266[group] AND srcdb_refseq_known[properties]" | efetch -db gene -format gene_table > aspm_gene_tables
+   gedit aspm_gene_tables
+   #esearch -db gene -query "abnormal spindle[group] AND srcdb_refseq" | elink -target protein | efilter -query "REVIEWED[FILTER]" | efetch -format fasta > initial_gene_aspm_seq.fasta
+   #esearch -db gene -query "ASPM" | elink -target gene | efilter -query "REVIEWED[FILTER]" | efetch -format fasta > initial_aspm_cds_seq.fasta
+   esearch -db gene -query "ASPM" | elink -target gene | efilter -query "REVIEWED[FILTER]" | efetch -format fasta > initial_aspm_cds_seq.fasta
+   esearch -db gene -query "ASPM" | elink -target gene | efetch -format fasta > initial_aspm_cds_seq.fasta
+   esearch -db protein -query "ASPM" | elink -target nuccore |efetch -format fasta CDS
+   esearch -db nucleotide -query "GDST008"|efetch -format fasta > output.fasta
+   1
+   esearch -db nucleotide -query "abnormmal spindle" | efetch -format fasta > output.fasta
+   ls -l output.fasta
+   less output.fasta
+   grep "abnomal spindle" output.fasta | wc -l
+   nano '/home/bajuna/Desktop/JoBaker/aspm_nuc_utput.fasta'
+   top
+   rm .config/nautilus
+   rm -r .config/nautilus
+   rm -r .local/share/nautilus
+   ssh bajuna@salx29
+   conda env list
+   conda activate
+   conda env list
+   ssh bajuna@salx29
+   cd ~/Desktop/JoBaker
+   esearch -db nucleotide -query "ASPM[Symbol]" | efetch -format fasta > aspm_nuc_utput.fasta
+   ls -l aspm_nuc_utput.fasta
+   less aspm_nuc_utput.fasta
+   grep "abnomal spindle" aspm_nuc_utput.fasta | wc -l
+   less aspm_nuc_utput.fasta
+   ls
+   ls -l
+   less aspm_nuc_output_filtered_only_with_abnormal_spindle.fasta
+   gedit known_human_ortholog_gene_aspm_seq.fasta
+   rm known_human_ortholog_gene_aspm_seq.fasta
+   rm initial_aspm_cds_seq.fasta
+   less aspm_nuc_output_filtered_only_with_abnormal_spindle_microtubule_assembly.fasta
+   grep "^>" aspm_nuc_output_filtered_only_with_abnormal_spindle_microtubule_assembly.fasta | wc -l
+   gedit aspm_nuc_output_filtered_only_with_abnormal_spindle_microtubule_assembly_1.fasta
+   grep "^>" aspm_nuc_output_filtered_only_with_abnormal_spindle_microtubule_assembly_1.fasta | wc -l
+   rm output.fasta
+   rm aspm_nuc_output_filtered_only_with_abnormal_spindle_microtubule_assembly_1.fasta
+   grep "^>" aspm_nuc_output_filtered_only_with_abnormal_spindle.fasta | wc -l
+   gedit aspm_nuc_output_filtered_only_with_abnormal_spindle_microtubule_assembly.fasta
+   grep "^>" aspm_nuc_output_filtered_only_with_abnormal_spindle_2nd.fasta | wc -l
+   grep "^>" aspm_nuc_output_filtered_only_with_abnormal_spindle_2nd_a.fasta | wc -l
+   rm aspm_nuc_output_filtered_only_with_abnormal_spindle_2nd_a.fasta
+   gedit aspm_nuc_output_filtered_only_with_abnormal_spindle_2nd.fasta
+   grep "^>" aspm_nuc_output_filtered_only_with_abnormal_spindle_2nd_filtered_clone.fasta | wc -l
+   makeblastdb
+   makeblastdb -h
+   makeblastdb -help
+   ls -l
+   xsltproc -\-novalid blast2fasta.xsl aspm_nucleotide_blast.xml > aspm_nucleotide_blast_hits1.fasta
+   blastp -query /home/bajuna/Desktop/JoBaker/blast_out_filtered_only_with_aspm.fasta -db ~/bioinf_projects/Jo/reciprocal_BLAST/db/prot_blastdb -outfmt 5 -out /home/bajuna/Desktop/JoBaker/filtered_aspm_blast_hits_run2_1.xml -evalue 1e-10 -word_size 3 -num_alignments 1 -seg yes -soft_masking true -use_sw_tback &
+   top
+   cd /home/bajuna/Desktop/JoBaker/
+   ls
+   scp bajuna@salx29:/home/bajuna/Jo/seq/aspm.fasta_blast.xml .
+   xsltproc -\-novalid blast2fasta.xsl aspm.fasta_blast.xml > aspm.fasta_blast.fasta
+   gedot aspm.fasta_blast.xml &
+   gedit aspm.fasta_blast.xml &
+   scp aspm.fasta_blast.xml bajuna@salx29:/home/bajuna/Jo/seq/aspm.fasta_blast.xml
+   history > history.txt
+   cd ~/bioinf_projects/Jo/script
+   ls
+   scp filter_aspm_seq.py bajuna@salx29:/home/bajuna/Jo/script/filter_aspm_seq.py
+   cd -
+   grep "^>" aspm_filterered_out_predicted_seq.fasta | wc -l
+   top
+   ls
+   ls -l
+   xsltproc -\-novalid blast2fasta.xsl filtered_aspm_blast_hits_run2_1.xml > filtered_aspm_blast_hits_run2_1.fasta
+   grep "^>" filtered_aspm_blast_hits_run2_1.fasta | wc -l
+   gedit filtered_aspm_blast_hits_run2_1.fasta
+   gedit aspm_filterered_out_predicted_seq_blast_hits_run2_1.fasta
+   grep "^>" aspm_filterered_out_predicted_seq_blast_hits_run2_1.fasta | wc -l
+   gedit aspm_filterered_out_predicted_seq_blast_hits_run2_1_fasta.no.duplicates.fasta
+   grep "^>" Human_ASPM_orthologues.fa | wc -l
+   gedit Human_ASPM_orthologues.fa
+   ls
+   cd -
+   ls cd ../
+   cd -
+   ls 
+   ls -l
+   cd -
+   #scp filter_aspm_seq.py bajuna@salx29:/home/bajuna/Jo/script/filter_aspm_seq.py
+   scp filter_aspm_seq.py bajuna@salx29:/home/bajuna/Jo/script/filter_aspm_seq.py
+   cd ~/Desktop/JoBaker/
+   scp filter_aspm_seq.py bajuna@salx29:/home/bajuna/Jo/script/filter_aspm_seq.py
+   cd ~/bioinf_projects/Jo/script/
+   cd -
+   ls
+   scp blast2fasta.xsl bajuna@salx29:/home/bajuna/Jo/script/
+   scp aspm_nucleotide_blast.xml bajuna@salx29:/home/bajuna/Jo/seq/
+   scp bajuna@salx29:/home/bajuna/Jo/seq/aspm_nucleotide_blast_hits1.fasta .
+   gedit /home/bajuna/Jo/seq/aspm_nucleotide_blast_hits1.fasta
+   ls -l
+   gedit aspm_nucleotide_blast_hits1.fasta
+   scp bajuna@salx29:/home/bajuna/Jo/seq/blast_out_filtered_only_with_aspm_nucleotide.fasta .
+   gedit blast_out_filtered_only_with_aspm_nucleotide.fasta
+   cd -l
+   ls -l
+   cd -
+   python remove_dup_seq_fasta_dictionary_nucleotide.py
+   python
+   cd -
+   ls -l
+   python filter_dup_seq_fasta_nucleotide.py
+   cd -
+   python filter_dup_seq_fasta_nucleotide.py
+   cd -
+   gedit aspm_nucleotide_blast_hits1_fasta.no.duplicates.fasta
+   rm aspm_nucleotide_blast_hits1_fasta.no.duplicates.fasta
+   cd -
+   ls
+   gedit filter_aspm_seq.py
+   python
+   cd -
+   python filter_aspm_nucleotide_seq.py
+   gedit blast_out_filtered_only_with_aspm_nucleotide.fasta
+   python
+   python filter_aspm_nucleotide_seq.py
+   gedit blast_out_filtered_only_with_aspm_nucleotide.fasta
+   python filter_dup_seq_fasta_nucleotide.py
+   cd -
+   ls -l
+   cd -
+   python filter_dup_seq_fasta_nucleotide.py
+   ls -l
+   cd -
+   ls -l
+   gedit aspm_nucleotide_blast_hits1_fasta.no.duplicates.fasta
+   top
+   ls
+   ls -l
+   xsltproc -\-novalid blast2fasta.xsl aspm_nucleotide_blast_hits2.xml > aspm_nucleotide_blast_hits2.fasta
+   gedit aspm_nucleotide_blast_hits2.fasta
+   top
+   sudo kill 3980
+   grep "^>" aspm_nucleotide_blast_hits2.fasta | wc -l
+   grep "^>" aspm_nucleotide_blast_hits1_fasta.no.duplicates.fasta | wc -l
+   cd -
+   python filter_dup_seq_fasta_nucleotide.py
+   cd -
+   ls -l
+   gedit aspm_nucleotide_blast_hits2_fasta.no.duplicates.fasta
+   cd -
+   python filter_aspm_nucleotide_seq_drosophila.py
+   ls -l
+   cd -
+   ls -l
+   gedit aspm_nucleotide_blast_hits2_fasta.no.duplicates_filter_drosophila.fasta
+   cd -
+   python filter_aspm_nucleotide_seq_drosophila.py
+   cd -
+   ls -l
+   geidt aspm_nucleotide_blast_hits2_fasta.no.duplicates_filter_drosophila.fasta
+   gedit aspm_nucleotide_blast_hits2_fasta.no.duplicates_filter_drosophila.fasta
+   cd -
+   python filter_aspm_nucleotide_seq_drosophila.py
+   cd -
+   ls -l
+   gedit aspm_nucleotide_blast_hits2_fasta.no.duplicates_filter_drosophila2.fasta
+   cd -
+   python filter_aspm_nucleotide_seq_drosophila.py
+   cd -
+   ls -l
+   gedit aspm_nucleotide_blast_hits2_fasta.no.duplicates_filter_drosophila2.fasta
+   cd -
+   python filter_aspm_nucleotide_seq_drosophila.py
+   cd -
+   ls -l
+   gedit aspm_nucleotide_blast_hits2_fasta.no.duplicates_filter_drosophila2.fasta
+   grep "^>" aspm_nucleotide_blast_hits2_fasta.no.duplicates.fasta | wc -l
+   mkdir proteins
+   esearch -db gene -query "ASPM[Symbol]" | elink -target protein | efilter -query "REVIEWED[FILTER]" | efetch -format fasta > proteins/initial_gene_aspm_seq_new.fasta
+   ls proteins/initial_gene_aspm_seq_new.fasta -l
+   gedit proteins/initial_gene_aspm_seq_new.fasta
+   esearch -db gene -query "ASPM[Symbol]" | elink -target protein | efetch -format fasta > proteins/initial_gene_aspm_seq_new_0.fasta
+   ls proteins/initial_gene_aspm_seq_new_0.fasta -l
+   gedit proteins/initial_gene_aspm_seq_new_o.fasta
+   gedit proteins/initial_gene_aspm_seq_new_0.fasta
+   grep "^>" proteins/initial_gene_aspm_seq_new_0.fasta | wc -l
+   ls -l
+   cd proteins
+   ls
+   ls -l
+   cd -
+   cd ~/bioinf_projects/Jo/script/
+   python filter_abnormal_spindle_from_esearch_seq_prot.py
+   cd -
+   ls -l
+   gedit aspm_prot_output_filtered_only_with_abnormal_spindle.fasta
+   grep "^>" proteins/aspm_prot_output_filtered_only_with_abnormal_spindle.fasta | wc -l
+   grep "^>" aspm_prot_output_filtered_only_with_abnormal_spindle.fasta | wc -l
+   cd -
+   python filter_non_mammal_species_seq_fasta.py
+   cd -
+   ls -l
+   cd -
+   python filter_non_mammal_species_seq_fasta.py
+   cd -
+   ls -l
+   python
+   cd -
+   python filter_non_mammal_species_seq_fasta.py
+   cd -
+   ls -l
+   python
+   ]
+   cd -
+   python filter_non_mammal_species_seq_fasta.py
+   python
+   python filter_non_mammal_species_seq_fasta.py
+   python filter_non_mammal_species_seq_fasta_prot.py
+   cd -
+   ls -l
+   cd -
+   python filter_non_mammal_species_seq_fasta_prot.py
+   cd -
+   ls -l
+   cd -
+   python filter_non_mammal_species_seq_fasta_prot.py
+   python
+   python filter_non_mammal_species_seq_fasta_prot.py
+   python
+   python filter_non_mammal_species_seq_fasta_prot.py
+   python
+   grep "^>" aspm_prot_output_filtered_only_with_abnormal_spindle_2nd | wc -l
+   cd -
+   grep "^>" aspm_prot_output_filtered_only_with_abnormal_spindle_2nd | wc -l
+  
+   grep "^>" aspm_prot_output_filtered_only_with_abnormal_spindle_2nd.fasta | wc -l
+   cd -
+   python filter_non_mammal_species_seq_fasta_prot.py
+   cd -
+   ls -l
+   cd -
+   python
+   python filter_non_mammal_species_seq_fasta_prot.py
+   cd -
+   ls -l
+   cd -
+   python filter_non_mammal_species_seq_fasta_prot.py
+   cd -
+   ls -l
+   cd -
+   python filter_non_mammal_species_seq_fasta_prot.py
+   cd -
+   ls -l
+   cd -
+   python filter_non_mammal_species_seq_fasta_prot.py
+   python
+   python filter_non_mammal_species_seq_fasta_prot.py
+   python
+   python filter_non_mammal_species_seq_fasta_prot.py
+   python filter_non_mammal_species_seq_fasta_prot_new.py
+   python
+   python filter_non_mammal_species_seq_fasta_prot.py
+   python
+   python filter_non_mammal_species_seq_fasta_prot.py
+   python filter_non_mammal_species_seq_fasta_prot_new.py
+   python
+   python filter_non_mammal_species_seq_fasta_prot_new.py
+   python
+   which python
+   python filter_non_mammal_species_seq_fasta_prot_new.py
+   python filter_non_mammal_species_seq_fasta_prot.py
+   cd -
+   python filter_non_mammal_species_seq_fasta_prot.py
+   rm filter_non_mammal_species_seq_fasta_prot_new.py
+   #blastp -query /home/bajuna/Desktop/JoBaker/proteins/aspm_filterered_non_mammal_species_prot.fasta -db ~/bioinf_projects/Jo/reciprocal_BLAST/db/prot_blastdb -outfmt 5 -out /home/bajuna/Desktop/JoBaker/aspm_blast.xml -evalue 1e-10 -num_alignments 600
+   #blastp -query /home/bajuna/Desktop/JoBaker/proteins/aspm_filterered_non_mammal_species_prot.fasta -db ~/bioinf_projects/Jo/reciprocal_BLAST/db_prot/prot_blastb -outfmt 5 -out /home/bajuna/Desktop/JoBaker/aspm_prot_blast.xml -evalue 1e-10 -num_alignments 600
+   chmod +x run_blast.sh
+   sudo bash run_blast.sh &
+   sudo chmod +x bash run_blast.sh
+   sudo chmod +x run_blast.sh
+   bash run_blast.sh
+   blastp -query /home/bajuna/Desktop/JoBaker/proteins/aspm_filterered_non_mammal_species_prot2.fasta -db ~/bioinf_projects/Jo/reciprocal_BLAST/db_prot/prot_blastb -outfmt 5 -out /home/bajuna/Desktop/JoBaker/proteins/aspm_prot_blast_new.xml -evalue 1e-10 -num_alignments 600 &
+   top
+   ls -l
+   gedit remove_dup_seq_fasta_dictionary_nucleotide.py
+   gedit remove_dup_seq_fasta_dictionary.py
+   gedit remove_dup3.py
+   gedit remove_dup.py
+   gedit filter_dup_seq_fasta_nucleotide.py
+   ls -l
+   python filter_dup_seq_fasta_amino_acid.py
+   python
+   python filter_dup_seq_fasta_amino_acid.py
+   python
+   python filter_dup_seq_fasta_amino_acid.py
+   python filter_dup_seq_fasta_nucleotide.py
+   python filter_dup_seq_fasta_amino_acid.py
+   python filter_aspm_seq_v2.py
+   python filter_dup_seq_fasta_amino_acid.py
+   python filter_non_mammal_species_seq_fasta.py
+   python
+   python filter_non_mammal_species_seq_fasta_v2.py
+   python filter_dup_seq_fasta_amino_acid.py
+   python filter_aspm_seq_v2_a.py
+   python filter_non_mammal_species_seq_fasta_v2_a.py
+   python
+   python filter_non_mammal_species_seq_fasta_v2_a.py
+   python filter_non_mammal_species_seq_fasta_v2_a1.py
+   blastp -query /home/bajuna/Desktop/JoBaker/proteins/aspm_prot_blast_new_no.duplicates.fasta_with_abnormal_no_nonmammals_all_mammals.fasta -db ~/bioinf_projects/Jo/reciprocal_BLAST/db_prot/prot_blastdb -outfmt 5 -out /home/bajuna/Desktop/JoBaker/proteins/aspm_prot_blast_new_no.duplicates.fasta_with_abnormal_no_nonmammals_all_mammals_blast_hits2.xml -num_alignments 1 -seg yes -soft_masking true -use_sw_tback &
+   blastp -query /home/bajuna/Desktop/JoBaker/proteins/aspm_prot_blast_new_no.duplicates.fasta_with_abnormal_no_nonmammals_all_mammals.fasta -db ~/bioinf_projects/Jo/reciprocal_BLAST//db_prot/prot_blastb -outfmt 5 -out /home/bajuna/Desktop/JoBaker/proteins/aspm_prot_blast_new_no.duplicates.fasta_with_abnormal_no_nonmammals_all_mammals_blast_hits2.xml -num_alignments 1 -seg yes -soft_masking true -use_sw_tback &
+   rm filter_non_mammal_species_seq_fasta_v2.py
+   top
