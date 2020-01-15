@@ -1,0 +1,130 @@
+Ornithorhynchus anatinus
+Sarcophilus harrisii
+Dasypus novemcinctus
+Erinaceus europaeus
+Echinops telfairi
+Pteropus alecto
+Rousettus aegyptiacus
+Desmodus rotundus
+Callithrix jacchus
+Cebus capucinus imitator
+Cercocebus atys
+Macaca fascicularis
+Macaca mulatta
+Macaca nemestrina
+Papio anubis
+Theropithecus gelada
+Mandrillus leucophaeus
+Gorilla gorilla gorilla
+Gorilla gorilla
+Pan paniscus
+Pan troglodytes
+Pongo abelii
+Homo sapiens
+Canis lupus familiaris
+Canis lupus dingo
+Vulpes vulpes
+Ursus arctos horribilis
+Ailuropoda melanoleuca
+Mustela putorius furo
+Felis catus
+Panthera pardus
+Panthera tigris altaica
+Puma concolor
+Zalophus californianus
+Odobenus rosmarus divergens
+Leptonychotes weddellii
+Globicephala melas
+Orcinus orca
+Tursiops truncatus
+Delphinapterus leucas
+Physeter catodon
+Balaenoptera acutorostrata scammoni
+Trichechus manatus latirostris
+Loxodonta africana
+Equus asinus
+Equus caballus
+Equus przewalskii
+Ceratotherium simum simum
+Orycteropus afer afer
+Sus scrofa
+Camelus bactrianus
+Camelus dromedarius
+Odocoileus virginianus texanus
+Bison bison bison
+Bos taurus
+Bos indicus
+Capra hircus
+Ovis aries
+Manis javanica
+Ochotona princeps
+Oryctolagus cuniculus
+Marmota marmota marmota
+Urocitellus parryii
+Dipodomys ordii
+Cricetulus griseus
+Mesocricetus auratus
+Peromyscus leucopus
+Peromyscus maniculatus bairdii
+Meriones unguiculatus
+Mus caroli
+Mus musculus
+Mus pahari
+Rattus norvegicus
+Cavia porcellus
+Octodon degus
+Heterocephalus glaber
+Monodelphis domestica
+Saimiri boliviensis boliviensis
+Elephantulus edwardii
+Ursus maritimus
+Eptesicus fuscus
+Neomonachus schauinslandi
+Vombatus ursinus
+Bos indicus x Bos taurus
+Vicugna pacos
+Microcebus murinus
+Otolemur garnettii
+Acinonyx jubatus
+Chinchilla lanigera
+Enhydra lutris kenyoni
+Callorhinus ursinus
+Eumetopias jubatus
+Suricata suricatta
+Aotus nancymaae
+Monodon monoceros
+Sorex araneus
+Ictidomys tridecemlineatus
+Jaculus jaculus
+Castor canadensis
+Colobus angolensis palliatus
+Myotis lucifugus
+Chlorocebus sabaeus
+Lynx canadensis
+Rhinopithecus bieti
+Rhinopithecus roxellana
+Nomascus leucogenys
+Bos mutus
+Microtus ochrogaster
+Bubalus bubalis
+Phyllostomus discolor
+Lagenorhynchus obliquidens
+Marmota flaviventris
+Myotis brandtii
+Lipotes vexillifer
+Pteropus vampyrus
+Condylura cristata
+Chrysochloris asiatica
+Hipposideros armiger
+Neophocaena asiaeorientalis asiaeorientalis
+Myotis davidii
+Tupaia chinensis
+Miniopterus natalensis
+Propithecus coquereli
+Camelus ferus
+Galeopterus variegatus
+Grammomys surdaster
+Piliocolobus tephrosceles
+Fukomys damarensis
+Nannospalax galili
+Carlito syrichta
