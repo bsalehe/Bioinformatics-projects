@@ -1,0 +1,31 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    NM04_CP_pieces.fsa
+# contigs (>= 0 bp)         3                 
+# contigs (>= 1000 bp)      3                 
+# contigs (>= 5000 bp)      3                 
+# contigs (>= 10000 bp)     3                 
+# contigs (>= 25000 bp)     2                 
+# contigs (>= 50000 bp)     1                 
+Total length (>= 0 bp)      131257            
+Total length (>= 1000 bp)   131257            
+Total length (>= 5000 bp)   131257            
+Total length (>= 10000 bp)  131257            
+Total length (>= 25000 bp)  114855            
+Total length (>= 50000 bp)  86834             
+# contigs                   3                 
+Largest contig              86834             
+Total length                131257            
+GC (%)                      35.84             
+N50                         86834             
+N75                         28021             
+L50                         1                 
+L75                         2                 
+# total reads               34184250          
+# left                      17087769          
+# right                     17087769          
+Mapped (%)                  6.98              
+Properly paired (%)         0.0               
+Avg. coverage depth         2693              
+Coverage >= 1x (%)          100.0             
+# N's per 100 kbp           0.00              
