@@ -2,6 +2,7 @@ Project title: Faecal bacterial community changes associated with mammalian lign
 
 Project Co PIs: Prof. Kim Jackson, Dr. Gemma Walton – Co supervisor and Halah
  Hafiz
+
 Schools: Food Biosciences
 
 Project objective: The study examined the influence of baseline microbiota composition on the inter-individual variation in lignan excretion following the chronic daily consumption of oats  or flaxseed (in the form of energy matched flapjack bars), and aimed to evaluate the chronic effect of these interventions on gut microbial composition in postmenopausal women living in the UK.
