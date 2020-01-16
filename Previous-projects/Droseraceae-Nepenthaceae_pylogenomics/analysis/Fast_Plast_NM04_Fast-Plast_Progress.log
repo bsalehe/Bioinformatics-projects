@@ -1,0 +1,6 @@
+Thu Jan 17 11:00:32 2019	Starting Fast-Plast v.1.2.6.
+				Assemblying plastome with 0 single end libraries and 1 paired end libraries.
+Thu Jan 17 11:00:32 2019	Determining best kmer sizes.
+				K-mer sizes for SPAdes set at 55,87,121.
+Thu Jan 17 11:00:32 2019	Starting read trimming with Trimmomatic.
+				Using /Users/botanyreading/Fast-Plast/bin/Trimmomatic-0.36//trimmomatic-0.36.jar.
