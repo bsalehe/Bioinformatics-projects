@@ -1,0 +1,343 @@
+conda info envs 1849
+conda info env 1850
+conda env list 1851
+conda activate qiime2-2018.6 1852
+cd areej/ 1853
+ls 1854
+firefox rarefaction-curve.qzv 1855
+qiime tools view rarefaction-curve.qzv 1856
+qiime tools view table-dada2.qzv 1857
+qiime tools table-dada2.qzv 1858
+qiime tools view table-dada2.qzv 1859
+history > qiime_hist.txt 1860
+qiime tools table-dada2.qzv 1861
+qiime tools views table-dada2.qzv 1862
+qiime tools view table-dada2.qzv 1863
+cd ../metagenetics 1864
+ls 1865
+qiime tools view table-dada2.qzv 1866
+cd - 1867
+qiime tools view table-dada2.qzv 1868
+qiime feature-table tabulate-seqs –i-data rep_seqs_dada2.qza \ # The ‘rep-seqs-dada2.qza’ artifact contains the identified sequence variants 1869
+–o-visualization rep_seqs_dada2.qzv 1870
+qiime tools view rep_seqs_dada2.qzv 1871
+qiime feature-table tabulate-seqs –i-data rep_seqs_dada2.qza –o-visualization rep_seqs_dada2.qzv 1872
+qiime feature-table tabulate-seqs -–i-data rep_seqs_dada2.qza -–o-visualization rep_seqs_dada2.qzv 1873
+qiime feature-table tabulate-seqs --i-data rep_seqs_dada2.qza --o-visualization rep_seqs_dada2.qzv 1874
+qiime feature-table tabulate-seqs --i-data rep-seqs-dada2.qza --o-visualization rep-seqs-dada2.qzv 1875
+ssh bajuna@salx29 1876
+gedit ~/.bashrc & 1877
+ssh bajuna@134.225.66.21 1878
+backup_bioinfo 1879
+backup_bioinf 1880
+ssh atonk@salx29 1881
+cd bin 1882
+cd Fast-Plast/ 1883
+ls 1884
+sudo chmod -R 777 DV2 1885
+cd DV2/ 1886
+ls 1887
+cd Final_Assembly 1888
+ls 1889
+sed -e '/^[^>]/s/[^ATGCatgc]/N/g' DV2.final.scaffolds_draft.fasta 1890
+cd - 1891
+cd 1892
+cd- 1893
+cd - 1894
+cd Final_Assembly/ 1895
+ls 1896
+sed -e '/^[^>]/s/[^ATGCatgc]/N/g' DV2.final.scaffolds_draft.fasta > DV2.final.scaffolds_draft1.fasta 1897
+cd metagenetics 1898
+ls 1899
+qiime tools view table-dada2.qzv 1900
+conda activate qiime2-2018.6 1901
+qiime tools view table-dada2.qzv 1902
+ssh atonks@salx29 1903
+cd afnan 1904
+ls 1905
+conda activate qiime2-2018.6 1906
+qiime tools view table-dada2.qzv 1907
+qiime tools view table-dada2.qzv & 1908
+qiime tools view table-dada2.qzv 1909
+cd areej 1910
+conda activate qiime2-2018.6 1911
+qiime tools view 1912
+qiime tools view table-dada2-qzv 1913
+ls 1914
+qiime tools view table-dada2.qzv 1915
+gedit ~/.bashrc 1916
+cd areej 1917
+conda activate qiime2.18.6 1918
+conda info --envs 1919
+conda activate qiime2-2018.6 1920
+ls 1921
+qiime tools view rarefaction-curve.qzv 1922
+cd ../Afnan 1923
+ls 1924
+qiime tools view rarefaction-curve.qzv 1925
+cd ../metagenetics 1926
+qiime tools view rarefaction-curve.qzv 1927
+qiime diversity alpha-rarefaction --i-table table-dada2.qza --i-phylogeny rooted-tree.qza --p-min-depth 5000 --p-max-depth 130000 --p-steps 75 --p-iterations 55 --p-metrics chao1 --p-metrics simpson_e --p-metrics simpson --p-metrics shannon --p-metrics observed_otus --p-metrics faith_pd --o-visualization rarefaction-curve.qzv 1928
+qiime tools view rarefaction-curve.qzv 1929
+cd ../areej 1930
+qiime diversity alpha-rarefaction --i-table table-dada2.qza --i-phylogeny rooted-tree.qza --p-min-depth 3000 \ # But this should be left default value which is 1 1931
+--p-max-depth 12000 \ # This was suppose to be 3000 based on the minimum sequence counts obtained from the feature table 1932
+# Evaluating diversity every 50 seqs depth 1933
+--p-steps 50 \ 1934
+qiime diversity alpha-rarefaction --i-table table-dada2.qza --i-phylogeny rooted-tree.qza --p-min-depth 3000 --p-max-depth 12000 --p-steps 50 --p-iterations 55 --p-metrics chao1 --p-metrics simpson_e --p-metrics simpson --p-metrics shannon --p-metrics observed_otus --p-metrics faith_pd --o-visualization rarefaction-curve1.qzv 1935
+qiime tools view rarefaction-curve1.qzv 1936
+qiime diversity alpha-rarefaction --i-table table-dada2.qza --i-phylogeny rooted-tree.qza --p-max-depth 12000 --p-steps 50 --p-iterations 55 --p-metrics chao1 --p-metrics simpson_e --p-metrics simpson --p-metrics shannon --p-metrics observed_otus --p-metrics faith_pd --o-visualization rarefaction-curve2.qzv 1937
+qiime diversity alpha-rarefaction --i-table table-dada2.qza --i-phylogeny rooted-tree.qza --p-min-depth 3000 --p-max-depth 12000 --p-steps 50 --m-metadata-file metadata.tsv --p-iterations 55 --p-metrics chao1 --p-metrics simpson_e --p-metrics simpson --p-metrics shannon --p-metrics observed_otus --p-metrics faith_pd --o-visualization rarefaction-curve1.qzv 1938
+qiime tools view rarefaction-curve1.qzv 1939
+qiime diversity alpha-rarefaction --i-table table-dada2.qza --i-phylogeny rooted-tree.qza --p-min-depth --p-max-depth 12000 --p-steps 50 --m-metadata-file metadata.tsv --p-iterations 55 --p-metrics chao1 --p-metrics simpson_e --p-metrics simpson --p-metrics shannon --p-metrics observed_otus --p-metrics faith_pd --o-visualization rarefaction-curve1.qzv 1940
+qiime diversity alpha-rarefaction --i-table table-dada2.qza --i-phylogeny rooted-tree.qza --p-max-depth 12000 --p-steps 50 --m-metadata-file metadata.tsv --p-iterations 55 --p-metrics chao1 --p-metrics simpson_e --p-metrics simpson --p-metrics shannon --p-metrics observed_otus --p-metrics faith_pd --o-visualization rarefaction-curve1.qzv 1941
+qiime tools view rarefaction-curve1.qzv 1942
+qiime diversity alpha-rarefaction --i-table table-dada2.qza --i-phylogeny rooted-tree.qza --p-max-depth 4000 --p-steps 50 --m-metadata-file metadata.tsv --p-iterations 55 --p-metrics chao1 --p-metrics simpson_e --p-metrics simpson --p-metrics shannon --p-metrics observed_otus --p-metrics faith_pd --o-visualization rarefaction-curve3.qzv 1943
+qiime tools view rarefaction-curve3.qzv 1944
+qiime diversity core-metrics-phylogenetic --i-table table-dada2.qza --i-phylogeny rooted-tree.qza --p-sampling-depth 500 --output-dir dada2-diversity-500 --m-metadata-file metadata.tsv 1945
+cd dada2-diversity-500 1946
+ls 1947
+cd .. 1948
+qiime tools view dada2-diversity-500/unweighted_unifrac_emperor.qzv 1949
+cd galaxy 1950
+ls 1951
+cd config 1952
+ls 1953
+gedit galaxy.yml 1954
+gedit ~/.bashrc 1955
+ssh bajuna@134.225.66.21 1956
+awk -F':' '$2 ~ "\$" {print $1}' /etc/shadow 1957
+sudo awk -F':' '$2 ~ "\$" {print $1}' /etc/shadow 1958
+ssh bajuna@134.225.66.21 1959
+cd Downloads 1960
+ls 1961
+cp KP0042-HH_sub611_Nov18.1.tar ~/halah 1962
+mkdir halaa 1963
+mkdir halah 1964
+cd halah 1965
+ls 1966
+mkdir rawdata 1967
+cp KP0042-HH_sub611_Nov18.1.tar rawdata/ 1968
+rm KP0042-HH_sub611_Nov18.1.tar 1969
+ls 1970
+cd rawdata 1971
+ls 1972
+untar KP0042-HH_sub611_Nov18.1.tar 1973
+tar xfz KP0042-HH_sub611_Nov18.1.tar 1974
+man tar 1975
+tar -f KP0042-HH_sub611_Nov18.1.tar 1976
+tar -xf KP0042-HH_sub611_Nov18.1.tar 1977
+ls 1978
+mv KP0042-HH_sub611_Nov18.1.tar ../ 1979
+ls 1980
+zless F46-Sv3_S189_R2_001.fastq.gz 1981
+zless F46-Sv3_S189_R1_001.fastq.gz 1982
+cd .. 1983
+gffread 1984
+cd bin 1985
+ls 1986
+cd gff_read 1987
+ls 1988
+cd gffread 1989
+ls 1990
+less 14593_MySample136_new.gtf 1991
+gedit 14593_MySample136_new.gtf & 1992
+cd galaxy 1993
+ls 1994
+sh run.sh 1995
+gedit ~/.bashrc 1996
+ssh atonk@salx29 1997
+gedit ~/.bashrc 1998
+cd halah 1999
+ls 2000
+sh QIIME2_DADA2_workflow_script_halah.sh 2001
+source activate qiime2-2018.6 2002
+sh QIIME2_DADA2_workflow_script_halah.sh 2003
+qiime tools import --type EMPPairedEndSequences -input-path rawdata --output-path paired_demux.qza 2004
+qiime tools import --type EMPPairedEndSequences --input-path rawdata --output-path paired_demux.qza 2005
+sh QIIME2_DADA2_workflow_script_halah.sh 2006
+qiime tools import --type 'SampleData[PairedEndSequencesWithQuality]' --input-path manifest.csv --output-path paired-end-demux.qza --source-format PairedEndFastqManifestPhred33 2007
+cd rawdata 2008
+ls 2009
+zless F10-sv1_S139_R2_001.fastq.gz 2010
+cd .. 2011
+qiime tools import --type 'SampleData[PairedEndSequencesWithQuality]' --input-path manifest_new.csv --output-path paired-end-demux.qza --source-format PairedEndFastqManifestPhred33 #or --input-format PairedEndFastqManifestPhred6 2012
+sudo chmod 777 manifest_new.csv 2013
+qiime tools import --type 'SampleData[PairedEndSequencesWithQuality]' --input-path manifest_1.csv --output-path paired-end-demux.qza --source-format PairedEndFastqManifestPhred33 2014
+sh QIIME2_DADA2_workflow_script_halah.sh 2015
+ls 2016
+sh QIIME2_DADA2_workflow_script_halah.sh 2017
+firefox single_R2_fastqc.html 2018
+sh QIIME2_DADA2_workflow_script_halah.sh 2019
+qiime dada2 denoise-paired --i-demultiplexed-seqs test_paired-end-demux.qza --p-trunc-len-f 300 --p-trunc-len-r 270 --p-no-hashed-feature-ids --o-representative-sequences rep-seqs-dada2.qza --o-table table-dada2.qza --verbose 2020
+qiime dada2 denoise-paired --i-demultiplexed-seqs paired-end-demux.trim.qza --p-trunc-len-f 300 --p-trunc-len-r 270 --p-no-hashed-feature-ids --o-representative-sequences rep-seqs-dada2.qza --o-table table-dada2.qza --verbose 2021
+qiime dada2 denoise-paired --i-demultiplexed-seqs paired-end-demux.trim.qza --p-trunc-len-f 300 --p-trunc-len-r 270 --p-no-hashed-feature-ids --o-representative-sequences rep-seqs-dada2.qza --o-table table-dada2.qza --output-dir dada2out 2022
+qiime demux summarize --i-data demux-joined.qza --o-visualization demux-joined.qzv 2023
+qiime feature-table tabulate-seqs --i-data rep_seqs_dada2.qza --o-visualization rep_seqs_dada2.qzv 2024
+qiime feature-table tabulate-seqs --i-data rep_seqs_dada2.qza --o-visualization rep-seqs-dada2.qzv 2025
+qiime feature-table tabulate-seqs --i-data rep-seqs-dada2.qza --o-visualization rep-seqs-dada2.qzv 2026
+qiime tools view rep-seqs-dada2.qzv 2027
+qiime cutadapt trim-paired --i-demultiplexed-sequences paired-end-demux.qza --p-front-f NNNNNGTGCCAGCMGCCGCGGTAA --p-front-r GGACTACHVGGGTWTCTAAT --o-trimmed-sequences paired-end-demux.trim.qza 2028
+qiime demux summarize --i-data paired-end-demux.trim.qza --o-visualization paired-end-demux.trim.qzv 2029
+qiime tools view paired-end-demux.trim.qzv 2030
+qiime feature-classifier extract-reads --i-sequences dada2-gg-13-8.99_otus.qza --p-f-primer NNNNNGTGCCAGCMGCCGCGGTAA --p-r-primer GGACTACHVGGGTWTCTAAT --p-trunc-len 280 --o-reads gg-13-8.99.ref.seqs.qza 2031
+qiime alignment mafft --i-sequences rep-seqs-dada2.qza --o-alignment aligned-rep-seqs.qza 2032
+qiime alignment mask --i-alignment aligned-rep-seqs.qza --o-masked-alignment masked-aligned-rep-seqs.qza 2033
+qiime phylogeny fasttree --i-alignment masked-aligned-rep-seqs.qza --o-tree unrooted-tree.qza 2034
+qiime phylogeny midpoint-root --i-tree unrooted-tree.qza --o-rooted-tree rooted-tree.qza 2035
+sh QIIME2_DADA2_workflow_script_halah.sh 2036
+qiime dada2 denoise-paired --i-demultiplexed-seqs paired-end-demux.trim.qza --p-trunc-len-f 261 --p-trunc-len-r 148 --p-no-hashed-feature-ids --o-representative-sequences rep-seqs-dada2.qza --o-table table-dada2.qza --verbose 2037
+qiime dada2 denoise-paired --i-demultiplexed-seqs paired-end-demux.trim.qza --p-trunc-len-f 261 --p-trunc-len-r 148 --p-no-hashed-feature-ids --o-representative-sequences rep-seqs-dada2.qza --o-table table-dada2.qza --output-dir dada2out --verbose 2038
+sudo rm -rf dada2out 2039
+qiime dada2 denoise-paired --i-demultiplexed-seqs paired-end-demux.trim.qza --p-trunc-len-f 261 --p-trunc-len-r 148 --p-no-hashed-feature-ids --o-representative-sequences rep-seqs-dada2.qza --o-table table-dada2.qza --output-dir dada2out --verbose 2040
+qiime feature-table tabulate-seqs --i-data rep-seqs-dada2.qza --o-visualization rep-seqs-dada2.qzv 2041
+qiime tools view rep-seqs-dada2.qzv 2042
+qiime demux summarize --i-data paired-end-demux.trim.qza --o-visualization paired-end-demux.trim.qzv 2043
+qiime tools view paired-end-demux.trim.qzv 2044
+qiime feature-table summarize --i-table table-dada2.qza \ # The 'table-dada2.qza ’ artifact contains abundance data 2045
+table-dada2.qzv \ --o-visualization
+metadata.tsv --m-sample-metadata-file
+tools view table-dada2.qzv qiime
+
+qiime feature-table summarize --i-table table-dada2.qza \ # The 'table-dada2.qza ’ artifact contains abundance data 2046
+table-dada2.qzv \ --o-visualization
+metadata.tsv --m-sample-metadata-file
+
+qiime feature-table summarize --i-table table-dada2.qza --o-visualization table-dada2.qzv --m-sample-metadata-file metadata.tsv 2047
+qiime tools view table-dada2.qzv 2048
+qiime feature-classifier classify-learn --i-classifier classifier.trained.qza --i-taxonomy taxonomy.sklearn.qza --m-metadata-file metadata.tsv --o-visualization taxa-bar-plots.dada2.qzv 2049
+qiime feature-classifier classify-slearn --i-classifier classifier.trained.qza --p-confidence 0.7 --i-reads rep-seqs-dada2.qza --o-classification taxonomy.sklearn.qza 2050
+qiime feature-classifier classify-sklearn --i-classifier classifier.trained.qza --p-confidence 0.7 --i-reads rep-seqs-dada2.qza --o-classification taxonomy.sklearn.qza 2051
+qiime taxa barplot --i-table table-dada2.qza --i-taxonomy taxonomy.sklearn.qza --m-metadata-file metadata.tsv --o-visualization taxa-bar-plots.dada2.qzv 2052
+qiime tools view taxa-bar-plots.dada2.qzv 2053
+qiime alignment mafft --i-sequences rep-seqs-dada2.qza --o-alignment aligned-rep-seqs.qza 2054
+qiime alignment mask --i-alignment aligned-rep-seqs.qza --o-masked-alignment masked-aligned-rep-seqs.qza 2055
+# Creation of the un-rooted tree with FASTTREE 2056
+qiime phylogeny fasttree --i-alignment masked-aligned-rep-seqs.qza --o-tree unrooted-tree.qza 2057
+# Creation of the rooted tree 2058
+qiime phylogeny midpoint-root --i-tree unrooted-tree.qza --o-rooted-tree rooted-tree.qza 2059
+qiime diversity alpha-rarefaction --i-table table-dada2.qza --i-phylogeny rooted-tree.qza --p-max-depth 9781 --p-steps 50 --m-metadata-file metadata.tsv --p-iterations 55 --p-metrics chao1 --p-metrics simpson_e --p-metrics simpson --p-metrics shannon --p-metrics observed_otus --p-metrics faith_pd --o-visualization rarefaction-curve.qzv 2060
+qiime tools view rarefaction-curve.qzv 2061
+qiime diversity beta --i-table table-dada2.qza --p-metric braycurtis --o-distance-matrix dada2.braycurtis.notNorm.diversity.qza 2062
+qiime diversity pcoa --i-distance-matrix dada2.braycurtis.notNorm.diversity.qza --o-pcoa dada2.braycurtis.notNorm.diversity.pcoa.qza 2063
+qiime emperor plot --i-pcoa dada2.braycurtis.notNorm.diversity.pcoa.qza --m-metadata-file metadata.file.txt --o-visualization dada2.braycurtis.notNorm.diversity.pcoa.qzv 2064
+qiime emperor plot --i-pcoa dada2.braycurtis.notNorm.diversity.pcoa.qza --m-metadata-file metadata.tsv --o-visualization dada2.braycurtis.notNorm.diversity.pcoa.qzv 2065
+history > halah_script.txt 2066
+qiime diversity core-metrics-phylogenetic --i-table table-dada2.qza --i-phylogeny rooted-tree.qza --p-sampling-depth 3000 --output-dir dada2-diversity-3000 --m-metadata-file metadata.tsv 2067
+cd dada2-diversity-3000 2068
+qiime diversity alpha-group-significance --i-alpha-diversity shannon_vector.qza --m-metadata-file ../metadata.tsv --o-visualization shannon-group-significance.kw.qzv 2069
+qiime tools view shannon-group-significance.kw.qzv 2070
+qiime diversity core-metrics-phylogenetic --i-table table-dada2.qza --i-phylogeny rooted-tree.qza --p-sampling-depth 2500 --output-dir dada2-diversity-2500 --m-metadata-file metadata.tsv 2071
+cd .. 2072
+qiime diversity core-metrics-phylogenetic --i-table table-dada2.qza --i-phylogeny rooted-tree.qza --p-sampling-depth 2500 --output-dir dada2-diversity-2500 --m-metadata-file metadata.tsv 2073
+cd dada2-diversity-2500 2074
+qiime diversity alpha-group-significance --i-alpha-diversity shannon_vector.qza --m-metadata-file ../metadata.tsv --o-visualization shannon-group-significance.kw.qzv 2075
+qiime tools view shannon-group-significance.kw.qzv 2076
+cd ../dada2-diversity-3000 2077
+qiime diversity alpha-group-significance --i-alpha-diversity faith_pd_vector.qza --m-metadata-file ../metadata.tsv --o-visualization faith-group-significance.kw.qzv 2078
+qiime tools view faith-group-significance.kw.qzv 2079
+qiime diversity alpha-group-significance --i-alpha-diversity observed_otus_vector.qza --m-metadata-file ../metadata.tsv --o-visualization observed_otus_group-significance.kw.qzv 2080
+qiime tools view observed_otus_group-significance.kw.qzv 2081
+qiime diversity alpha-group-significance --i-alpha-diversity evenness_vector.qza --m-metadata-file ../metadata.tsv --o-visualization evenness_group-significance.kw.qzv 2082
+qiime tools view evenness_group-significance.kw.qzv 2083
+cd .. 2084
+history > halah_script.txt 2085
+qiime tools view dada2-diversity-3000/bray_curtis_emperor.qzv 2086
+qiime tools view dada2-diversity-3000/unweighted_unifrac_emperor.qzv 2087
+qiime tools view dada2-diversity-3000/weighted_unifrac_emperor.qzv 2088
+qiime tools view dada2-diversity-2500/jaccard_emperor.qzv 2089
+qiime diversity beta-group-significance --i-distance-matrix weighted_unifrac_distance_matrix.qza --m-metadata-file ../metadata.tsv \ 2090
+qiime tools view dada2-diversity-3000/jaccard_emperor.qzv 2091
+cd dada2-diversity-3000 2092
+qiime diversity beta-group-significance --i-distance-matrix weighted_unifrac_distance_matrix.qza --m-metadata-file ../metadata.tsv -m-metadata-column sv3_post --p-method permanova --p-pairwise --p-permutations 999 --o-visualization weighted-unifrac-significance.sv3_post.qzv 2093
+qiime diversity beta-group-significance --i-distance-matrix weighted_unifrac_distance_matrix.qza --m-metadata-file ../metadata.tsv --m-metadata-column sv3_post --p-method permanova --p-pairwise --p-permutations 999 --o-visualization weighted-unifrac-significance.sv3_post.qzv 2094
+qiime tools view weighted-unifrac-significance.sv3_post.qzv 2095
+qiime diversity beta-group-significance --i-distance-matrix weighted_unifrac_distance_matrix.qza --m-metadata-file ../metadata.tsv --p-method permanova --p-pairwise --p-permutations 999 --o-visualization weighted-unifrac-significance.all.qzv 2096
+qiime diversity beta-group-significance --i-distance-matrix weighted_unifrac_distance_matrix.qza --m-metadata-file ../metadata.tsv --m-metadata-column Group --p-method permanova --p-pairwise --p-permutations 999 --o-visualization weighted-unifrac-significance.group.qzv 2097
+qiime tools weighted-unifrac-significance.group.qzv 2098
+qiime tools view weighted-unifrac-significance.group.qzv 2099
+qiime diversity beta-group-significance --i-distance-matrix weighted_unifrac_distance_matrix.qza --m-metadata-file ../metadata.tsv --m-metadata-column sv3_post --p-method permanova --p-pairwise --p-permutations 999 --o-visualization weighted-unifrac-significance.sv3_post_anosim.qzv 2100
+qiime tools weighted-unifrac-significance.sv3_post_anosim.qzv 2101
+qiime tools view weighted-unifrac-significance.sv3_post_anosim.qzv 2102
+qiime diversity beta-group-significance --i-distance-matrix weighted_unifrac_distance_matrix.qza --m-metadata-file ../metadata.tsv --m-metadata-column sv1_pre --p-method permanova --p-pairwise --p-permutations 999 --o-visualization weighted-unifrac-significance.sv1_pre_permanova.qzv 2103
+qiime tools view weighted-unifrac-significance.sv1_pre_permanova.qzv 2104
+qiime feature-table summarize --i-table table-dada2.qza --o-visualization table-dada2.qzv --m-sample-metadata-file metadata1.tsv 2105
+cd .. 2106
+qiime feature-table summarize --i-table table-dada2.qza --o-visualization table-dada2.qzv --m-sample-metadata-file metadata1.tsv 2107
+qiime taxa barplot --i-table table-dada2.qza --i-taxonomy taxonomy.sklearn.qza --m-metadata-file metadata1.tsv --o-visualization taxa-bar-plots.dada2.qzv 2108
+qiime feature-classifier classify-slearn --i-classifier classifier.trained.qza --i-taxonomy taxonomy.sklearn.qza --m-metadata-file metadata1.tsv --o-visualization taxa-bar-plots.dada2.qzv 2109
+qiime feature-classifier classify-sklearn --i-classifier classifier.trained.qza --i-taxonomy taxonomy.sklearn.qza --m-metadata-file metadata1.tsv --o-visualization taxa-bar-plots.dada2.qzv 2110
+qiime taxa barplot --i-table table-dada2.qza --i-taxonomy taxonomy.sklearn.qza --m-metadata-file metadata1.tsv --o-visualization taxa-bar-plots.dada2.qzv 2111
+qiime tools view taxa-bar-plots.dada2.qzv 2112
+qiime taxa barplot --i-table table-dada2.qza --i-taxonomy taxonomy.sklearn.qza --m-metadata-file metadata1.tsv --o-visualization taxa-bar-plots.dada2.qzv 2113
+qiime tools view taxa-bar-plots.dada2.qzv 2114
+ls 2115
+sudo rm -rf dada2-diversity-2500 dada2-diversity-3000 2116
+qiime diversity core-metrics-phylogenetic --i-table table-dada2.qza --i-phylogeny rooted-tree.qza --p-sampling-depth 3000 --output-dir dada2-diversity-3000 --m-metadata-file metadata1.tsv 2117
+cd dada2-diversity-3000 2118
+qiime diversity alpha-group-significance --i-alpha-diversity shannon_vector.qza --m-metadata-file ../metadata1.tsv --o-visualization shannon-group-significance.kw.qzv 2119
+qiime tools view evenness-group-significance.kw.qzv 2120*
+qiime diversity alpha-group-significance --i-alpha-diversity evenness_vector.qza --m-metadata-file ../metadata1.tsv --o-visualization evenness-group-significance.kw.qzv 2121
+qiime tools view evenness-group-significance.kw.qzv 2122
+qiime diversity alpha-group-significance --i-alpha-diversity observed_otus_vector.qza --m-metadata-file ../metadata1.tsv --o-visualization observed_otus-group-significance.kw.qzv 2123
+qiime tools view observed_otus-group-significance.kw.qzv 2124
+qiime diversity alpha-group-significance --i-alpha-diversity faith_pd_vector.qza --m-metadata-file ../metadata1.tsv --o-visualization faith_pd-group-significance.kw.qzv 2125
+qiime tools view faith_pd-group-significance.kw.qzv 2126
+qiime diversity beta-group-significance --i-distance-matrix weighted_unifrac_distance_matrix.qza --m-metadata-file ../metadata1.tsv --m-metadata-column Time --p-method permanova --p-pairwise --p-permutations 999 --o-visualization weighted-unifrac-significance.time.qzv 2127
+qiime tools view weighted-unifrac-significance.time.qzv 2128
+qiime diversity beta-group-significance --i-distance-matrix unweighted_unifrac_distance_matrix.qza --m-metadata-file ../metadata1.tsv --m-metadata-column Time --p-method permanova --p-pairwise --p-permutations 999 --o-visualization unweighted-unifrac-significance.time.qzv 2129
+qiime tools view unweighted-unifrac-significance.time.qzv 2130
+qiime diversity beta-group-significance --i-distance-matrix bray_curtis_distance_matrix.qza --m-metadata-file ../metadata1.tsv --m-metadata-column Time --p-method permanova --p-pairwise --p-permutations 999 --o-visualization bray-curtis-significance.time.qzv 2131
+qiime tools view unweighted-unifrac-significance.time.qzv 2132
+qiime tools view bray-curtis-significance.time.qzv 2133
+qiime diversity beta-group-significance --i-distance-matrix jaccard_distance_matrix.qza --m-metadata-file ../metadata1.tsv --m-metadata-column Time --p-method permanova --p-pairwise --p-permutations 999 --o-visualization jaccard-significance.time.qzv 2134
+qiime tools view jaccard-significance.time.qzv 2135
+qiime diversity beta-group-significance --i-distance-matrix weighted_unifrac_distance_matrix.qza --m-metadata-file ../metadata1.tsv --m-metadata-column GxT --p-method permanova --p-pairwise --p-permutations 999 --o-visualization weighted-unifrac-significance.GxT.qzv 2136
+qiime tools view weighted-unifrac-significance.GxT.qzv 2137
+qiime diversity beta-group-significance --i-distance-matrix unweighted_unifrac_distance_matrix.qza --m-metadata-file ../metadata1.tsv --m-metadata-column GxT --p-method permanova --p-pairwise --p-permutations 999 --o-visualization unweighted-unifrac-significance.GxT.qzv 2138
+qiime tools view unweighted-unifrac-significance.GxT.qzv 2139
+qiime diversity beta-group-significance --i-distance-matrix bray_curtis_distance_matrix.qza --m-metadata-file ../metadata1.tsv --m-metadata-column GxT --p-method permanova --p-pairwise --p-permutations 999 --o-visualization bray-curtis-significance.GxT.qzv 2140
+qiime tools view bray-curtis-significance.GxT.qzv 2141
+qiime diversity beta-group-significance --i-distance-matrix jaccard_distance_matrix.qza --m-metadata-file ../metadata1.tsv --m-metadata-column GxT --p-method permanova --p-pairwise --p-permutations 999 --o-visualization jaccard-significance.GxT.qzv 2142
+qiime tools view jaccard-significance.GxT.qzv 2143
+qiime diversity beta-group-significance --i-distance-matrix weighted_unifrac_distance_matrix.qza --m-metadata-file ../metadata1.tsv --m-metadata-column Group --p-method permanova --p-pairwise --p-permutations 999 --o-visualization weighted-unifrac-significance.Group.qzv 2144
+qiime tools view weighted-unifrac-significance.Group.qzv 2145
+history > halah_script.txt 2146
+qiime diversity beta-group-significance --i-distance-matrix weighted_unifrac_distance_matrix.qza --m-metadata-file ../metadata1.tsv --m-metadata-column Time --p-method anosim --p-pairwise --p-permutations 999 --o-visualization weighted-unifrac-significance.anosim.time.qzv 2147
+qiime tools view weighted-unifrac-significance.anosim.time.qzv 2148
+cd .. 2149
+qiime taxa collapse --i-table table-dada2.qza --i-taxonomy taxonomy.sklearn.qza --p-level 6 --o-collapsed-table ancom-table-l6.qza 2150
+qiime composition add-pseudocount --i-table ancom-table-l6.qza --p-pseudocount 1 --o-composition-table comp-ancom-table-l6.qza 2151
+qiime composition ancom --i-table comp-ancom-table-l6.qza --m-metadata-file metadata1.tsv --metadata-column GxT --o-visualization l6-ancom-Location.qzv 2152
+qiime composition ancom --i-table comp-ancom-table-l6.qza --m-metadata-file metadata1.tsv --m-metadata-column GxT --o-visualization l6-ancom-GxT.qzv 2153
+qiime tools view l6-ancom-GxT.qzv 2154
+qiime taxa collapse --i-table table-dada2.qza --i-taxonomy taxonomy.sklearn.qza --p-level 7 --o-collapsed-table ancom-table-l7.qz 2155
+qiime tools view l7-ancom-GxT.qzv 2156
+qiime taxa collapse --i-table table-dada2.qza --i-taxonomy taxonomy.sklearn.qza --p-level 7 --o-collapsed-table ancom-table-l7.qza 2157
+qiime composition add-pseudocount --i-table ancom-table-l6.qza --p-pseudocount 1 --o-composition-table comp-ancom-table-l6.qza 2158
+qiime composition add-pseudocount --i-table ancom-table-l7.qza --p-pseudocount 1 --o-composition-table comp-ancom-table-l7.qza 2159
+qiime composition ancom --i-table comp-ancom-table-l7.qza --m-metadata-file metadata1.tsv --m-metadata-column GxT --o-visualization l7-ancom-GxT.qzv 2160
+qiime tools view l7-ancom-GxT.qzv 2161
+qiime taxa collapse --i-table table-dada2.qza --i-taxonomy taxonomy.sklearn.qza --p-level 6 --o-collapsed-table ancom-table-l6Time.qza 2162
+qiime composition add-pseudocount --i-table ancom-table-l6Time.qza --p-pseudocount 1 --o-composition-table comp-ancom-table-l6Time.qza 2163
+qiime composition ancom --i-table comp-ancom-table-l6.qza --m-metadata-file metadata1.tsv --m-metadata-column Time --o-visualization l6-ancom-Time.qzv 2164
+qiime tools view l6-ancom-Time.qzv 2165
+qiime taxa collapse --i-table table-dada2.qza --i-taxonomy.sklearn.qza --p-level 6 --o-collapsed-table genus-table.qza 2166
+qiime taxa collapse --i-table table-dada2.qza --i-taxonomy taxonomy.sklearn.qza --p-level 6 --o-collapsed-table genus-table.qza 2167
+qiime feature-table relative-frequency --i-table genus-table.qza --o-relative-frequency-table rel-genus-table.qza 2168
+qiime tools export rel-genus-table.qza --output-dir rel-table 2169
+cd rel-table 2170
+biom convert -i feature-table.biom -o rel-genus-table.tsv --to-tsv 2171
+history > halah_script.txt 2172
+cd .. 2173
+qiime taxa collapse --i-table table-dada2.qza --i-taxonomy taxonomy.sklearn.qza --p-level 2 --o-collapsed-table phyla-table.qza 2174
+qiime feature-table relative-frequency --i-table phyla-table.qza --o-relative-frequency-table rel-phyla-table.qza 2175
+qiime tools export rel-phyla-table.qza --output-dir rel-table1 2176
+cd rel-table1 2177
+biom convert -i feature-table.biom -o rel-phyla-table.tsv --to-tsv 2178
+cd .. 2179
+qiime taxa collapse --i-table table-dada2.qza --i-taxonomy taxonomy.sklearn.qza --p-level 2 --o-collapsed-table ancom-table-l2.qza 2180
+qiime composition add-pseudocount --i-table ancom-table-l2.qza --p-pseudocount 1 --o-composition-table comp-ancom-table-l2.qza 2181
+qiime composition ancom --i-table comp-ancom-table-l2.qza --m-metadata-file metadata1.tsv --m-metadata-column GxT --o-visualization l2-ancom-GxT.qzv 2182
+qiime tools view l2-ancom-GxT.qzv 2183
+history > halah_script.txt 2184
