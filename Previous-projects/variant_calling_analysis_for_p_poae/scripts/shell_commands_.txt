@@ -1,0 +1,489 @@
+echo "export PATH=\${PATH}:/home/bajuna/edirect" >> $HOME/.bashrc
+esearch -db assembly -query "Pseudomonas poae [ORGN] AND representative [PROP]"
+export GENOME="Pseudomonas poae"
+echo GENOME
+echo $GENOME
+bamtools
+#bamtools filter ~/bioinf_tutorials/VariantCallGalaxy/rawdata/Calling_variant_non_diploid_tutorial/Galaxy64-[MarkDuplicates_on_data_62__MarkDuplicates_BAM_output].bam
+bamtools filter
+bamtools filter --help
+bamtools filter "mapQuality" ">=20" ~/bioinf_tutorials/VariantCallGalaxy/rawdata/Calling_variant_non_diploid_tutorial/Galaxy64-[MarkDuplicates_on_data_62__MarkDuplicates_BAM_output].bam -out ~/bioinf_tutorials/VariantCallGalaxy/rawdata/Calling_variant_non_diploid_tutorial/MarkDuplicates_on_data_62__MarkDuplicates_BAM_output.bam
+bamtools filter mapQuality ">=20" ~/bioinf_tutorials/VariantCallGalaxy/rawdata/Calling_variant_non_diploid_tutorial/Galaxy64-[MarkDuplicates_on_data_62__MarkDuplicates_BAM_output].bam -out ~/bioinf_tutorials/VariantCallGalaxy/rawdata/Calling_variant_non_diploid_tutorial/MarkDuplicates_on_data_62__MarkDuplicates_BAM_output.bam
+bamtools filter ~/bioinf_tutorials/VariantCallGalaxy/rawdata/Calling_variant_non_diploid_tutorial/Galaxy64-[MarkDuplicates_on_data_62__MarkDuplicates_BAM_output].bam -out ~/bioinf_tutorials/VariantCallGalaxy/rawdata/Calling_variant_non_diploid_tutorial/MarkDuplicates_on_data_62__MarkDuplicates_BAM_output.bam
+bamtools help filter
+samtools
+#samtools view -b ~/bioinf_tutorials/VariantCallGalaxy/rawdata/Calling_variant_non_diploid_tutorial/Galaxy64-[MarkDuplicates_on_data_62__MarkDuplicates_BAM_output].bam chrM > ~/bioinf_tutorials/VariantCallGalaxy/rawdata/Calling_variant_non_diploid_tutorial/chrM.bam
+samtools view -h
+samtools view -b -q 20 ~/bioinf_tutorials/VariantCallGalaxy/rawdata/Calling_variant_non_diploid_tutorial/Galaxy64-[MarkDuplicates_on_data_62__MarkDuplicates_BAM_output].bam chrM > ~/bioinf_tutorials/VariantCallGalaxy/rawdata/Calling_variant_non_diploid_tutorial/chrM.bam
+sudo apt-get install icedtea-netx
+javaws ~/Downloads/igv24_hm.jnlp
+bamtools
+cd /usr/local/bin/
+ls
+cd -
+cd /usr/local/bioinfx/
+ls
+cd bamtools
+ls
+cd ../bamtools-2.4.2
+ls
+which bamtools
+cd src
+ls
+cd build
+ls
+cd ../../../bamtools
+ls
+cd build
+ls
+cd ../src
+ls
+less bamtools.pc.in
+cd ../../
+cd ~
+cd galaxy/tool
+cd galaxy/
+ls
+cd tools
+ls
+hg clone https://toolshed.g2.bx.psu.edu/repos/anton/bamtools
+sudo apt install mercurial
+hg clone https://toolshed.g2.bx.psu.edu/repos/anton/bamtools
+ls
+cd bamtools/
+ls
+nano bamtools-filter.xml
+nano bamtools.xml
+nano tool_dependencies.xml
+nano bamtools.xml
+cd ../../
+ls
+cd config/
+ls
+cd ..
+ls
+cd tools
+ls
+cd bamtools
+ls
+cd ../fastx_toolkit
+ls
+cd -
+ls
+nano bamtools-filter.xml
+sudo mv ~/SOFTWARE/Trimmomatic-0.39/ /usr/local/bioinfx/Trimmomatic
+cd /usr/local/bioinfx/Trimmomatic
+ls
+ssh bajuna@salx29
+cd SOFTWARE/
+unzip fastqc_v0.11.8.zip
+ls
+sudo mv FastQC /usr/local/bioinfx/FastQC
+cd /usr/local/bioinfx/FastQC
+ls
+gedit INSTALL.txt &
+ln -s fastqc /usr/local/bin/fastqc
+sudo ln -s fastqc /usr/local/bin/fastqc
+cd
+fastqc
+cd -
+sudo ln -s fastqc /usr/bin/fastqc
+fastqc
+sudo chmod a+x fastqc
+ls
+cd -
+fastqc
+cd -
+fastqc
+./fastqc
+cd -
+ln -s /usr/local/bioinfx/FastQC/fastqc /usr/local/bin/fastqc
+sudo rm /usr/local/bin/fastqc
+sudo rm /usr/bin/fastqc
+ln -s /usr/local/bioinfx/FastQC/fastqc /usr/local/bin/fastqc
+sudo ln -s /usr/local/bioinfx/FastQC/fastqc /usr/local/bin/fastqc
+fastqc
+sudo apt-get install libcanberra-gtk-module:i386
+sudo apt-get update
+fastqc
+sudo apt-get install libcanberra-gtk-module
+fastqc
+ssh bajuna@salx29
+cd ~/Desktop/BioinformaticsForGenomics/Daily_routines/Learning/git clone https://github.com/linsalrob/ComputationalGenomicsManual.git
+cd ~/Desktop/BioinformaticsForGenomics/Daily_routines/Learning/
+git clone https://github.com/linsalrob/ComputationalGenomicsManual.git
+man awk
+top
+sudo kill 23020
+top
+sudo kill 23680
+sudo kill 21802
+top
+sudo kill 13077
+top
+sudo kill 12590
+sudo kill 12976
+top
+sudo kill 12366
+blast
+cd ~/SOFTWARE/
+curl -o ftp://ftp.ncbi.nih.gov/blast/executables/blast+/2.9.0/ncbi-blast-2.9.0+-x64-linux.tar.gz
+curl ftp://ftp.ncbi.nih.gov/blast/executables/blast+/2.9.0/ncbi-blast-2.9.0+-x64-linux.tar.gz
+curl --help
+wget ftp://ftp.ncbi.nih.gov/blast/executables/blast+/2.9.0/ncbi-blast-2.9.0+-x64-linux.tar.gz
+tar xf ncbi-blast-2.9.0+-x64-linux.tar.gz
+ls
+ls bin
+sudo mv ncbi-blast-2.9.0+ /usr/local/bioinfx/ncbi-blast-2.9.0+
+cd /usr/local/bioinfx/ncbi-blast-2.9.0+
+ls
+gedit README
+cd bin
+gedit README
+ls
+./blastx
+echo $PWD
+export PATH=$PATH:$PWD
+cd ~
+mkdir $HOME/blastdb
+export BLASTDB=$HOME/blastdb
+cd -
+#cd ~/bioinf_tutorials/
+echo $PWD
+gedit ~/.bashrc.profile
+gedit ~/.bashrc_profile
+gedit ~/.bashrc
+cd $HOME/blastdb
+wget ftp://ftp.ncbi.nlm.nih.gov/blast/db/nr.00.tar.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/blast/db/refseq_rna.00.tar.gz
+mkdir test
+rm test
+rm -r test
+cd galaxy/bamtools
+cd galaxy/tools/bamtools
+ls
+nano bamtools-filter.xml
+nano tool_dependencies.xml
+nano bamtools-split.xml
+nano bamtools-filter.xml
+nano bamtools.xml
+cd ~/bioinf_projects/Kris_Pseudomonas_poae/
+ls
+cd data/seq/
+ls
+esearch -db assembly -query "Pseudomonas poae[ORGN]"
+esearch -db assembly -query "Pseudomonas poae[ORGN]" | efetch -format docsum | less
+esearch -db assembly -query "Pseudomonas poae[ORGN]" | efetch -format docsum | xtract -pattern DocumentSummary -element FtpPath_RefSeq
+esearch -db assembly -query "Pseudomonas poae[ORGN]" | efetch -format docsum | xtract -pattern DocumentSummary -element FtpPath_RefSeq | awk -F"/" '{print "curl -o "$NF"_genomic.fna.gz " $0"/"_genomic.fna.gz"}'
+esearch -db assembly -query "Pseudomonas poae[ORGN]" | efetch -format docsum | xtract -pattern DocumentSummary -element FtpPath_RefSeq | awk -F"/" '{print "curl -o "$NF"_genomic.fna.gz " $0"/"_genomic.fna.gz"}'
+esearch -db assembly -query "Pseudomonas poae[ORGN]" | efetch -format docsum | xtract -pattern DocumentSummary -element FtpPath_RefSeq |awk -F"/" '{print $0"/"$NF"_genomic.fna.gz"}'
+esearch -db assembly -query "Pseudomonas poae[ORGN]" | efetch -format docsum | xtract -pattern DocumentSummary -element FtpPath_RefSeq |awk -F"/" '{print "curl -o "$NF"_genomic.fna.gz " $0"/"$NF"_genomic.fna.gz"}'
+mkdir refseq
+cd refseq/
+esearch -db assembly -query "Pseudomonas poae[ORGN]" | efetch -format docsum | xtract -pattern DocumentSummary -element FtpPath_RefSeq |awk -F"/" '{print "curl -o "$NF"_genomic.fna.gz " $0"/"$NF"_genomic.fna.gz"}' > get_refseq_genome.sh
+bash get_refseq_genome.sh
+ls
+trap 'GET_GENOME=$(esearch -db assembly -query "Pseudomonas poae[ORGN]" | efetch -format docsum | xtract -pattern DocumentSummary -element FtpPath_RefSeq |awk -F"/" '{print "curl -o "$NF"_genomic.fna.gz " $0"/"$NF"_genomic.fna.gz"}')' DEBUG
+cat > ../../../script/get_genome.sh
+gedit ../../../script/get_genome.sh
+gedit ../../../script/generate_curl_for_getting_genomes.sh
+ls
+conda activate
+cd ../../../analysis/
+ls
+mdir samtools gatk freebayes snippy varscan
+ls
+cd /usr/local/bioinfx/
+ls
+cd gatk
+ls
+cd ../gatk-4.1.2.0/
+ls
+./gatk
+./gatk --list
+./gatk --tools
+./gatk --help
+./gatk --list
+cd -
+./gatk --list
+./gatk NormalizeFasta I=~/bioinf_projects/Kris_Pseudomonas_poae/genome/GCF_003731985.1_ASM373198v1_genomic.fa O=~/bioinf_projects/Kris_Pseudomonas_poae/genome/Normalized_GCF_003731985.1_ASM373198v1_genomic.fasta
+conda activate ppoae
+conda install -c bioconda seqkit
+cd ~/bioinf_projects/Kris_Pseudomonas_poae/genome/
+seqkit seq -w 70 s.fa > s2.fa
+ls
+seqkit seq -w 70 GCF_003731985.1_ASM373198v1_genomic.fa > GCF_003731985.1_ASM373198v1_genomic_2.fa
+ls
+samtools faidx GCF_003731985.1_ASM373198v1_genomic_2.fa
+ls
+bamtools index -in ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_fixmate_aln.sorted.dedup.q50.bam
+samtools mpileup -u -g -f GCF_003731985.1_ASM373198v1_genomic_2.fa ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_fixmate_aln.sorted.dedup.q50.bam | bcftools call -v -m -O z -o ../analysis/Intermediate_data/variants/samtools/ppoae_wildtype.mpilup.vcf.gz
+samtools mpileup
+bcftools call
+bcftools call --ploidy <assembly>[?]
+bcftools call --ploidy ?
+samtools mpileup -u -g -f GCF_003731985.1_ASM373198v1_genomic_2.fa ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_fixmate_aln.sorted.dedup.q50.bam | bcftools call -v -m -O z -o --ploidy 1 ../analysis/Intermediate_data/variants/samtools/ppoae_wildtype.mpilup.vcf.gz
+samtools mpileup -u -g -f GCF_003731985.1_ASM373198v1_genomic_2.fa ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_fixmate_aln.sorted.dedup.q50.bam | bcftools call --ploidy 1 -v -m -O z -o ../analysis/Intermediate_data/variants/samtools/ppoae_wildtype.mpilup.vcf.gz
+samtools mpileup -u -g -f GCF_003731985.1_ASM373198v1_genomic_2.fa -b ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_fixmate_aln.sorted.dedup.q50.bam ../analysis/Intermediate_data/mapping/bwa/23147_aphidpassage_ppoae_fixmate_aln.sorted.dedup.q50.bam ../analysis/Intermediate_data/mapping/bwa/23148_biofilmpassag_ppoae_fixmate_aln.sorted.dedup.q50.bam | bcftools call --ploidy 1 -v -m -O z -o ../analysis/Intermediate_data/variants/samtools/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz
+#samtools mpileup -u -g -f GCF_003731985.1_ASM373198v1_genomic_2.fa -b ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt | bcftools call --ploidy 1 -v -m -O z -o ../analysis/Intermediate_data/variants/samtools/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz
+cat > ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt
+cat ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt
+samtools mpileup -u -g -f GCF_003731985.1_ASM373198v1_genomic_2.fa -b ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt | bcftools call --ploidy 1 -v -m -O z -o ../analysis/Intermediate_data/variants/samtools/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz
+ls ../analysis/Intermediate_data/variants/samtools/
+zcat ../analysis/Intermediate_data/variants/samtools/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz
+zless ../analysis/Intermediate_data/variants/samtools/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz
+#samtools mpileup -u -g -f GCF_003731985.1_ASM373198v1_genomic_2.fa -b ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt | bcftools call --ploidy 1 -v -m -O z -o ../analysis/Intermediate_data/variants/samtools/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz
+#samtools mpileup -u -g -f GCF_003731985.1_ASM373198v1_genomic_2.fa -b ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt
+samtools mpileup
+zless ../analysis/Intermediate_data/variants/samtools/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz
+zcat ../analysis/Intermediate_data/variants/samtools/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz | egrep -v '##' | head -4
+#tabix -p vcf ../analysis/Intermediate_data/variants/samtools/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz
+cd ../analysis/Intermediate_data/variants/samtools/
+ls
+rm ppoae_wildtype.mpilup.vcf.gz
+#tabix -p vcf ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz
+ls
+tabix -p vcf ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz
+ls
+rtg vcfstats ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz
+conda install -c bioconda rtg-tools
+rtg vcfstats ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz
+rtg vcfstats ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz > quick_stats.txt
+cd -
+bcftools stats -F ~/bioinf_projects/Kris_Pseudomonas_poae/genome/GCF_003731985.1_ASM373198v1_genomic_2.fa -s - ../analysis/Intermediate_data/variants/samtools/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz > ../analysis/Intermediate_data/variants/samtools/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz.stats
+conda install -c bioconda vcflib
+mkdir ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/samtools/plots
+plot-vcfstats -p ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/samtools/plots/ ../analysis/Intermediate_data/variants/samtools/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz.stats
+freebayes
+conda install -c bioconda freebayes
+#freebayes -f GCF_003731985.1_ASM373198v1_genomic.fa
+freebayes -h
+cd ../analysis/Intermediate_data/variants/freebayes/
+cd -
+#freebayes -f GCF_003731985.1_ASM373198v1_genomic.fa -L ../analysis/Intermediate_data/variants/samtools/
+ls
+#freebayes -f GCF_003731985.1_ASM373198v1_genomic.fa -L ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt
+cat ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt
+nano ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_fixmate_aln.sorted.dedup.q50.bam
+gedit ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_fixmate_aln.sorted.dedup.q50.bam
+cat > ../analysis/Intermediate_data/mapping/bwa/samples_ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt
+gedit ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_fixmate_aln.sorted.dedup.q50.bam
+gedit ../analysis/Intermediate_data/mapping/bwa/23147_aphidpassage_ppoae_fixmate_aln.sorted.dedup.q50.bam
+#cat > ../analysis/Intermediate_data/mapping/bwa/samples_ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt
+samtools view -H ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_fixmate_aln.sorted.dedup.q50.bam | grep ^@RG
+freebayes -f GCF_003731985.1_ASM373198v1_genomic.fa -L ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes.vcf.gz
+freebayes -f GCF_003731985.1_ASM373198v1_genomic_2.fa -L ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes.vcf.gz
+cd ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/
+cd ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/
+ls
+zless ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes.vcf.gz
+freebayes -f GCF_003731985.1_ASM373198v1_genomic_2.fa -L ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt -p 1 | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz
+cd -
+freebayes -f GCF_003731985.1_ASM373198v1_genomic_2.fa -L ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt -p 1 | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz
+zless ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes.vcf.gz
+cd -
+zless ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes.vcf.gz
+zless ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz
+zless ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes.vcf.gz
+zless ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz
+rm ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes.vcf.gz
+mkdir plots
+#plot-vcfstats -p plots/ ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz.stats
+bcftools stats -F ~/bioinf_projects/Kris_Pseudomonas_poae/genome/GCF_003731985.1_ASM373198v1_genomic_2.fa -s ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz > ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz.stats
+cd ../samtools/
+ls
+#rtg vcffilter -q 30 -i ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz -o ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.q30.vcf.gz
+nano quick_stats.txt
+nano ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz.stats
+cd -
+ls
+nano ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz.stats
+bcftools stats -F ~/bioinf_projects/Kris_Pseudomonas_poae/genome/GCF_003731985.1_ASM373198v1_genomic_2.fa -s - ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz > ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz.stats
+nano ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz.stats
+cd -
+nano ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz.stats
+samtools view
+cd -
+#freebayes -f GCF_003731985.1_ASM373198v1_genomic_2.fa -L ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt -p 1 | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz
+#freebayes -f GCF_003731985.1_ASM373198v1_genomic_2.fa -L ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt -p 1 --haplotype-length 0 --min-alternate-fraction 0 --pooled-continuous --report-monomorphic -O --min-coverage | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz
+freebayes -f GCF_003731985.1_ASM373198v1_genomic_2.fa -L ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt -p 1 --haplotype-length 0 --min-alternate-fraction 0 --pooled-continuous --report-monomorphic -O --min-coverage | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz
+cd ~/bioinf_projects/Kris_Pseudomonas_poae/genome
+#freebayes -f GCF_003731985.1_ASM373198v1_genomic_2.fa -L ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt -p 1 --haplotype-length 0 --min-alternate-fraction 0 --pooled-continuous --report-monomorphic -O --min-coverage | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz
+freebayes -f GCF_003731985.1_ASM373198v1_genomic_2.fa -L ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt -p 1 --haplotype-length 0 --min-alternate-fraction 0 --pooled-continuous --report-monomorphic -O --min-coverage | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz
+freebayes
+freebayes -j
+freebayes -h
+freebayes -f GCF_003731985.1_ASM373198v1_genomic_2.fa -L ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt -p 1 --haplotype-length 0 --min-alternate-fraction 0 --pooled-continuous --report-monomorphic -O --min-coverage 100 | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1_cov100.vcf.gz
+freebayes -f GCF_003731985.1_ASM373198v1_genomic_2.fa -L ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt -p 1 --haplotype-length 0 -O --min-coverage 100 | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1_cov100.vcf.gz
+freebayes -f GCF_003731985.1_ASM373198v1_genomic_2.fa -L ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt -p 1 -O --min-coverage 100 | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1_cov100.vcf.gz
+cd -
+zless ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz
+ls
+zless ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1_cov100.vcf.gz
+cd ../samtools/
+ls
+zcat ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz | vcffilter -f "QUAL >= 30" | gzip > ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.q30.vcf.gz
+rtg vcfstats ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.q30.vcf.gz
+zless ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz
+zless ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.q30.vcf.gz
+zcat ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz | vcffilter -f "QUAL >= 20" | gzip > ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.q20.vcf.gz
+zless ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.q20.vcf.gz
+rtg vcffilter -q 30 -i ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz -o ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.q30.vcf.gz
+rm ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.q30.vcf.gz
+rtg vcffilter -q 30 -i ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.vcf.gz -o ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.q30.vcf.gz
+zless ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.q30.vcf.gz
+rtg vcfstats ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.q30.vcf.gz
+rtg vcfstats ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.mpileup.q30.vcf.gz > quick_stats_q30.txt
+cd ../freebayes/
+ls
+rtg vcfstats ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1.vcf.gz > quick_stats.txt
+rtg vcfstats ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1_cov100.vcf.gz
+#freebayes -f GCF_003731985.1_ASM373198v1_genomic_2.fa -L ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt -p 1 -O --min-coverage 100 | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.freebayes1_cov100.vcf.gz
+cd ~/bioinf_projects/Kris_Pseudomonas_poae/gnome
+cd ~/bioinf_projects/Kris_Pseudomonas_poae/genome
+#freebayes -f GCF_003731985.1_ASM373198v1_genomic_2.fa -L ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt -p 1 -O --min-coverage 100 | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/23146_ppoae_wildtype.freebayes1_cov100.vcf.gz
+cat ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt
+#freebayes -f GCF_003731985.1_ASM373198v1_genomic_2.fa -b ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_fixmate_aln.sorted.dedup.q50.bam -p 1 -O --min-coverage 100 | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/23146_ppoae_wildtype.freebayes_cov100.vcf.gz
+freebayes -f GCF_003731985.1_ASM373198v1_genomic_2.fa -b ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_fixmate_aln.sorted.dedup.q50.bam -p 1 -O --min-coverage 100 | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/23146_ppoae_wildtype.freebayes_cov100.vcf.gz
+freebayes -f GCF_003731985.1_ASM373198v1_genomic_2.fa -b ../analysis/Intermediate_data/mapping/bwa/23147_aphidpassage_ppoae_fixmate_aln.sorted.dedup.q50.bam -p 1 -O --min-coverage 100 --min-base-quality 20 --min-mapping-quality 30 --min-supporting-allele-qsum 20 --min-supporting-mapping-qsum 30 --min-alternate-qsum 40 | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/23147_aphidpassage_ppoae.freebayes_cov100.vcf.gz
+freebayes -f GCF_003731985.1_ASM373198v1_genomic_2.fa -b ../analysis/Intermediate_data/mapping/bwa/23148_biofilmpassag_ppoae_fixmate_aln.sorted.dedup.q50.bam -p 1 -O --min-coverage 100 --min-base-quality 20 --min-mapping-quality 30 --min-supporting-allele-qsum 20 --min-supporting-mapping-qsum 30 --min-alternate-qsum 40 | gzip >~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/freebayes/23148_biofilmpassag_ppoae.freebayes_cov100.vcf.gz
+samtools mpileup
+samtools mpileup -u -g -f GCF_003731985.1_ASM373198v1_genomic_2.fa -b ../analysis/Intermediate_data/mapping/bwa/ppoae_wildtype_23147_aphidpassage_23148_biofilmpassag.txt -s -o ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/varscan/ppoae_23146_wildtype_23147_aphidpassage_23148_biofilmpassag.bam
+ls
+cd ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/mapping/bwa
+samtools index
+samtools index new_ppoae_wildtype_fixmate_aln.sorted.dedup.q50.bam
+samtools index new_23148_biofilmpassag_ppoae_fixmate_aln.sorted.dedup.q50.bam
+samtools index new_23147_aphidpassage_ppoae_fixmate_aln.sorted.dedup.q50.bam
+cd -
+samtools sort
+samtools sort -o -O new_23147_aphidpassage_ppoae_fixmate_aln.sorted.dedup.q50.bam new_sorted_23147_aphidpassage_ppoae_fixmate_aln.sorted.dedup.q50.bam
+#samtools sort -O bam -o new_23147_aphidpassage_ppoae_fixmate_aln.sorted.dedup.q50.bam
+rm new_23147_aphidpassage_ppoae_fixmate_aln.sorted.dedup.q50.bam new_23148_biofilmpassag_ppoae_fixmate_aln.sorted.dedup.q50.bam.bai new_ppoae_wildtype_fixmate_aln.sorted.dedup.q50.bam.bai
+samtools sort -O bam -o new_23147_aphidpassage_ppoae_fixmate_aln.sorted.dedup.q50.bam
+ls
+rm new_23147_aphidpassage_ppoae_fixmate_aln.sorted.dedup.q50.bam.bai new_23148_biofilmpassag_ppoae_fixmate_aln.sorted.dedup.q50.bam new_ppoae_wildtype_fixmate_aln.sorted.dedup.q50.bam
+ls
+cd -
+ls
+cd ../../variants/gatk/
+ls
+cat > Galaxy52_MarkDuplicates_on_ppoae_wildtype.g.vcf
+ls
+cd -
+ls
+cd -
+ls
+/usr/local/bioinfx/gatk/gatk HaplotypeCaller -R ~/bioinf_projects/Kris_Pseudomonas_poae/genome/GCF_003731985.1_ASM373198v1_genomic_2.fa -I ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/mapping/bwa/Galaxy54_MarkDuplicates_on_23147_aphidpassage_ppoae.bam -O Galaxy54_MarkDuplicates_on_23147_aphidpassage_ppoae.g.vcf --native-pair-hmm-threads 8 -ERC GVCF
+/usr/local/bioinfx/gatk/gatk HaplotypeCaller -R ~/bioinf_projects/Kris_Pseudomonas_poae/genome/GCF_003731985.1_ASM373198v1_genomic_2.fa -I ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/mapping/bwa/Galaxy54_MarkDuplicates_on_23147_aphidpassage_ppoae.bam -O Galaxy54_MarkDuplicates_on_23147_aphidpassage_ppoae.g.vcf --native-pair-hmm-threads 8 -ERC GVCF -ploidy 1
+/usr/local/bioinfx/gatk/gatk HaplotypeCaller -R ~/bioinf_projects/Kris_Pseudomonas_poae/genome/GCF_003731985.1_ASM373198v1_genomic_2.fa -I ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/mapping/bwa/Galaxy54_MarkDuplicates_on_23147_aphidpassage_ppoae.bam -O Galaxy54_MarkDuplicates_on_23147_aphidpassage_ppoae.g.vcf --native-pair-hmm-threads 10 -ERC GVCF -ploidy 1
+/usr/local/bioinfx/gatk/gatk HaplotypeCaller -R ~/bioinf_projects/Kris_Pseudomonas_poae/genome/GCF_003731985.1_ASM373198v1_genomic_2.fa -I ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/mapping/bwa/Galaxy56_MarkDuplicates_on_23148_biofilmpassage_ppoae.bam -O Galaxy56_MarkDuplicates_on_23148_biofilmpassage_ppoae.g.vcf --native-pair-hmm-threads 10 -ERC GVCF -ploidy 1
+ls
+/usr/local/bioinfx/gatk/gatk CombineGVCFs -R ~/bioinf_projects/Kris_Pseudomonas_poae/genome/GCF_003731985.1_ASM373198v1_genomic_2.fa -V ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data//variants/gatk/Galaxy52_MarkDuplicates_on_ppoae_wildtype.g.vcf -V ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data//variants/gatk/Galaxy54_MarkDuplicates_on_23147_aphidpassage_ppoae.g.vcf -V ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data//variants/gatk/Galaxy56_MarkDuplicates_on_23148_biofilmpassage_ppoae.g.vcf -O combined_wildtype_23147_aphidpassage_23148_biofilmpassage.g.vcf
+ls
+less combined_wildtype_23147_aphidpassage_23148_biofilmpassage.g.vcf
+/usr/local/bioinfx/gatk/gatk GenotypeGVCFs -R ~/bioinf_projects/Kris_Pseudomonas_poae/genome/GCF_003731985.1_ASM373198v1_genomic_2.fa -V ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/gatk/combined_wildtype_23147_aphidpassage_23148_biofilmpassage.g.vcf -O final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage.vcf
+/usr/local/bioinfx/gatk/gatk CalculateGenotypePosteriors -R ~/bioinf_projects/Kris_Pseudomonas_poae/genome/GCF_003731985.1_ASM373198v1_genomic_2.fa -V final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage.vcf --skipPopulationPriors --skipFamilyPriors --ignoreInputSamples --discoveredACpriorsOff -O final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios.vcf
+/usr/local/bioinfx/gatk/gatk CalculateGenotypePosteriors -R ~/bioinf_projects/Kris_Pseudomonas_poae/genome/GCF_003731985.1_ASM373198v1_genomic_2.fa -V final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage.vcf --skip-population-priors --skip-family-priors -RF MappingQualityReadFilter --minimum-mapping-quality 30 -O final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios.vcf
+ls
+less final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios.vcf
+/usr/local/bioinfx/gatk/gatk VariantFiltration -R ~/bioinf_projects/Kris_Pseudomonas_poae/genome/GCF_003731985.1_ASM373198v1_genomic_2.fa -V final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios.vcf --genotype-filter-expression "GQ<20" --genotype-filter-name "lowGQ" -O final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+/usr/local/bioinfx/gatk/gatk VariantAnnotator -R ~/bioinf_projects/Kris_Pseudomonas_poae/genome/GCF_003731985.1_ASM373198v1_genomic_2.fa -V final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf -A PossibleDeNovo -O final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered_annotated.vcf
+less final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered_annotated.vcf
+grep -v -c "^#" final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered_annotated.vcf
+less final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered_annotated.vcf
+bcftoola query -l final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered_annotated.vcf
+bcftools query -l final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered_annotated.vcf
+bcftools query -l final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered_annotated.vcf | wc -l
+less final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered_annotated.vcf
+less final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+less test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+ls
+ls -l
+rm test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.ann.vcf
+ls
+ls -l
+less test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.ann.vcf
+rm test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.ann.vcf ppoae_snpeff_annotated_ppoae_snpeff_annotated_ppoae.vcf
+nano test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+less test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.ann.vcf
+ls -l
+rm test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.ann.vcf
+ls -l
+rm test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.ann.vcf
+ls -l
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf |grep -v "^#" | cut -f 1 | uniq
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000056.1/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+less updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+#cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000062.1/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf |grep -v "^#" | cut -f 1 | uniq > chrom_names_in_vcf.txt
+while read line; do cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^$line/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf; done < chrom_names_in_vcf.txt
+less updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+less test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+less updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000056.1/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+#cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000062.1/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000062.1/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000065.1/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat chrom_names_in_vcf.txt
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000073.1/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000074.1/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000081.1/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000017.1/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000019.1/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000034.1/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000004.1/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000036.1/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000049.1/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000053.1/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000054.1/CHROMOSOME/" > updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+less updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000053.1/CHROMOSOME/" > updated1_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+less updated1_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+sed "s/^NZ_MOAY01000054.1/CHROMOSOME/" updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+gedit updated_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+ls
+less updated1_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000049.1/CHROMOSOME/" > updated2_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000036.1/CHROMOSOME/" > updated3_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000004.1/CHROMOSOME/" > updated4_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000034.1/CHROMOSOME/" > updated5_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000019.1/CHROMOSOME/" > updated6_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000017.1/CHROMOSOME/" > updated7_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000081.1/CHROMOSOME/" > updated8_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000074.1/CHROMOSOME/" > updated9_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000073.1/CHROMOSOME/" > updated10_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000065.1/CHROMOSOME/" > updated11_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000062.1/CHROMOSOME/" > updated12_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000056.1/CHROMOSOME/" > updated13_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+less updated13_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+#cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000056.1//" > updated13_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+cat test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf | sed "s/^NZ_MOAY01000081.1/MOAY01000081/" > updated8_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+less updated8_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+less ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/gatk/updated8_o_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+gedit ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/gatk/test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+less modified_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.ann.vcf
+less ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/gatk/updated8_o_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+gedit ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/gatk/modified_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.vcf
+gedit ~/bioinf_projects/Kris_Pseudomonas_poae/analysis/Intermediate_data/variants/gatk/modified_test_filtering_final_variants_combined_wildtype_23147_aphidpassage_23148_biofilmpassage_gtposterios_filtered.ann.vcf
+ls
+rm updated*.vcf
+ls
+rm chrom_names_in_vcf.txt
+ls
+cd ../freebayes/
+ls
+mv 'Galaxy31-[VCFfilter__on_data_30].vcf' Galaxy31_VCFfilter_on_data_30.vcf
+ls
+gedit Galaxy31_VCFfilter_on_data_30.vcf
+java -jar /usr/local/bioinfx/snpEff/snpEff.jar -v -stats GCA_003731985.1 Galaxy31_VCFfilter_on_data_30_modified.vcf > Galaxy31_VCFfilter_on_data_30_modified.ann.vcf
+ls
+java -jar /usr/local/bioinfx/snpEff/snpEff.jar -v -stats GCA_003731985.1 ./Galaxy31_VCFfilter_on_data_30_modified.vcf > ./Galaxy31_VCFfilter_on_data_30_modified.ann.vcf
+ls
+rm Galaxy31_VCFfilter_on_data_30_modified.ann.vcf#
+ls
+gedit Galaxy31_VCFfilter_on_data_30_modified.ann.vcf
+ls
+less Galaxy31_VCFfilter_on_data_30_modified.ann.vcf
+firefox snpEff_summary.html
+awk '{$1=$1};1' shell_commands.txt > shell_commands_.txt ##Removing the trailing white spaces in each line of the file.
