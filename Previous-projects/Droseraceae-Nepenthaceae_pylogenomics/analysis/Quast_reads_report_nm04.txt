@@ -1,0 +1,18 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly             NM04_CP_pieces.fsa
+# total reads        34184250          
+# left               17087769          
+# right              17087769          
+# mapped             2386218           
+Mapped (%)           6.98              
+# properly paired    0                 
+Properly paired (%)  0.0               
+# singletons         0                 
+Singletons (%)       0.0               
+# misjoint mates     42                
+Misjoint mates (%)   0.0               
+Avg. coverage depth  2693              
+Coverage >= 1x (%)   100.0             
+Coverage >= 5x (%)   100.0             
+Coverage >= 10x (%)  100.0             
