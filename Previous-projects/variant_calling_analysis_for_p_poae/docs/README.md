@@ -6,7 +6,7 @@ Schools: SBS
 
 Project objective: Aphids are a major pest to the agricultural and horticultural industry, causing significant yield losses by directly feeding on the crop and acting as vectors for plant diseases.  Concern for the environment, human health and species developing resistance to numerous insecticides, has put growers under increasing pressure to find alternative methods of aphid control. 
 
-Study aimed to investigate any genetic changes that have occurred that associate difference or changes in the growth, motility and plant colonization of Pseudomonas poae widtype and lab strains (aphids and biofilm related strains). The wild type P. poae and two derived strains, an aphid passaged isolate and the best biofilm forming isolate, were sent to MicrobesNG for combined Illumina and Nanopore sequencing.  Focusing on SNPs, some of the observed phenotypic changes that were explained by analyzing changes on the genomes of the passaged strains using the wild-type Pseudomonas poae as a reference.
+Study aimed to investigate any genetic changes that have occurred that associate difference or changes in the growth, motility and plant colonization of Pseudomonas poae widtype and lab strains (aphids and biofilm related strains). The wild type P. poae and two derived strains, an aphid passaged isolate and the best biofilm forming isolate, were sent to MicrobesNG for combined Illumina and Nanopore sequencing.  Focusing on SNPs, some of the observed phenotypic changes were explained by analyzing changes on the genomes of the passaged strains using the wild-type Pseudomonas poae as a reference.
 
 Bioinformatics tasks category: Variant Calling Analysis
 
