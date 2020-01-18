@@ -12,3 +12,7 @@ Milestones:
 - Installing NOVOPlasty and Fast-Plast tools on the desktop machine for de novo assembly of plastid sequences and perform de novo assembly – 7 days
 - Pre-processing sequence reads with different tools for phylogenetic studies – 7 days
 - Apply suitable phylogenetic tools for the processed data for comperative evolution of the two species – 7 days
+
+Delivery: Assembled plastid genome.
+
+Status: Completed and signed-off.
