@@ -11,9 +11,9 @@ Bioinformatics tasks category: QIIME2 analysis
 
 Milestones:
 
-- Pre-processing of raw reads, i.e. removing primer or adapters, demultiplexing, and quality filtering (1 day)
-- Amplicon sequence variants using QIIME2 – DADA2 (2 Days)
-- Generate taxonomy and perform beta diversity analyses (5 Days)
+- Pre-processing of raw reads, i.e. removing primer or adapters, demultiplexing, and quality filtering.
+- Amplicon sequence variants using QIIME2 – DADA2.
+- Generate taxonomy and perform beta diversity analyses.
 
 Deliverables: (1) QC data; (2) Taxonomy of the identified features; (3) Alpha & Beta analysis files; and (4) Feature table.
 
