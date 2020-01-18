@@ -11,8 +11,8 @@ Bioinformatics tasks category: DNA capture probes
 
 Milestones:
 
-- Installing tools (HiCapTools, Mr.Bait) (1 day)
-- Designing mitochondrial capture probes with Mr.Bait (2 Days)
+- Installing tools (HiCapTools, Mr.Bait).
+- Designing mitochondrial capture probes with Mr.Bait.
 
 Delivery: A summary table of the probes or list of probes for species under investigation.
 
