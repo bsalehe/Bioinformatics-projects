@@ -1,0 +1,8 @@
+Simple workflow for Identification of whether the genomic sequences contains antibiotic resistance gene/functional element
+
+- Run Prokka on Galaxy to annotate the genome (one file containing contigs/draft genome per sample). The file is in fasta format.
+- Ensure you check the option force genbank format while setting up parameters in PROKKA on Galaxy.
+- Download all files as zipped file once the PROKKA finish running.
+- Open CARD rgi tool (https://card.mcmaster.ca/analyze/rgi) from your browser
+- Use the .fnn PROKKA genome annotation files as an input to rgi OR you can use directly the draft contigs files as input to rgi.
+- Download the results from CARD-rgi
