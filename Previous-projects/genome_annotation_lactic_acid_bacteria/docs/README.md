@@ -1,7 +1,6 @@
 Project title: Selection of starters for and stabilisation of flavour-enhancing process in lafun production by lactic acid bacteria
 
-Project Co PIs: Dr Colette Fagan, and Dr Kimon Andreas Karatzas
- Hafiz
+Project Co PIs: Abosede Fawole, Dr Colette Fagan, and Dr Kimon Andreas Karatzas
 
 Schools: Food Biosciences
 
