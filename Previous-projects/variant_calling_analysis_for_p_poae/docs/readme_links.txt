@@ -26,3 +26,4 @@ https://www.biostars.org/p/5298/ - Question: Phased And Unphased Genotypes In Vc
 https://www.biostars.org/p/9897/ - Question: Snp Quality In Vcf File
 https://www.biostars.org/p/300745/ - Question: Merge WGS .VCF files from multiple individuals into one .VCF file
 https://www.biostars.org/p/49730/ - Question: How Can I Merge A Large Amount Of Vcf Files?
+https://gatk.broadinstitute.org/hc/en-us/articles/360035531652-FASTA-Reference-genome-format - gnerating index file for gatk pipeline
