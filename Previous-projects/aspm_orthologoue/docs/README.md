@@ -11,3 +11,6 @@ These sequences will be used to generate optimum alignments using MUSCLE, visual
 
 ## Bioinformatics task category
 Sequence database search and alignment
+
+## Status
+Incomplete
