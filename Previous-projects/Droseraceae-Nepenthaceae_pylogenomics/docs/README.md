@@ -1,4 +1,4 @@
-Project title: Comperative genomics and phylogenetics of low nutrient environment carnivorous plant species
+Project title: Comparative genomics and phylogenetics of low nutrient environment carnivorous plant species
 
 Project Co PIs: Dr. Alastair Culham and WESSAM FELEMBAN
 
