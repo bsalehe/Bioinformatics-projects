@@ -4,7 +4,7 @@ Project Co PIs: Di Lei, and Prof. Julie Hawkins
 
 Schools: SBS
 
-Project objective: The requested bioinformatics supports was to write a python script which could edit tip names of the tree to match a pattern is the requirement for further analysis. There are more than 300 names await to be edited, manually search and replace may introduce new errors to the document.
+Project objective: The requested bioinformatics supports was to write a python script which could edit tip names of the tree to match a pattern for further analysis. There are more than 300 names await to be edited, manually search and replace may introduce new errors to the document.
 
 Bioinformatics tasks category: Bespoke scripting using Python
 
