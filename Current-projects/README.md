@@ -1,20 +1,16 @@
-This folder contains all current projects.
+This folder contains all current bioinformatics support projects in 2020
 
-######################################### 14/01/2018 ##########################################
+There were three projects that have been approved with their titles mentioned below:-
 
-At the moment there is no any approved projects
+- Steam explosion pretreatment for the enhancement of anaerobic digestion of wheat straw - 16S amplicon sequencing analysis: Dr. Kimon Andreas
 
-I have met and discussed with couple of staff with regard their data and whether they might need bioinformatics support or not.
+- Greater crop residue diversity increases the interconnectivity of soil microbial networks - 16S amplicon sequencing analysis: Dr. Tim Sizmur
 
-I have discussed with people from School of Chemistry, Food biosceinces and Pharmacy, School of Biological Sciences and School of Archeology, Geography and Environmental Sciences.
+- The cultural heritage of Britain’s herbal traditions: exploring Viking influences - Bespoke scripting: Prf. Julkie Hawkins
 
-####################################### 10/02/2020 ###########################################
+One project has been completed and two were not completed due mostly the impact of coronavirus pandemic.
 
-There are three projects that have been approved with their titles mentioned below:-
-
-- Steam explosion pretreatment for the enhancement of anaerobic digestion of wheat straw - 16S amplicon sequencing analysis
-
-- Greater crop residue diversity increases the interconnectivity of soil microbial networks - 16S amplicon sequencing analysis
-
-- The cultural heritage of Britain’s herbal traditions: exploring Viking influences - Bespoke scripting
-
+### The Bioinformatics support project role has officially ended. 
+I am currently involved with only two projects from 2021 to date
+  - IntFOLD - Prof Liam McGuffin
+  - Pseudomonas Syringae - Prof. Rob Jackson from the University of Birngham (collaboration)
