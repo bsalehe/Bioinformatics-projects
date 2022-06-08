@@ -10,7 +10,3 @@ There were three projects that have been approved with their titles mentioned be
 
 One project has been completed and two were not completed due mostly the impact of coronavirus pandemic.
 
-### The Bioinformatics support project role has officially ended. 
-I am currently involved with only two projects from 2021 to date
-  - IntFOLD - Prof Liam McGuffin
-  - Pseudomonas Syringae - Prof. Rob Jackson from the University of Birngham (collaboration)
