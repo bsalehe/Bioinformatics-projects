@@ -22,8 +22,8 @@ Working Python script.
 
 ## How to run script?
 First, install python in your system (of course, if not installed). Then in running script, please make sure that all files (and script file) are in the same directory/folder and single quoted when parsing them to the script:
-    example in linux :- `sudo python ./Script_DiLei.py 'A_cp.txt' 'B_FOCtree.txt' 'B_FOCtree_out.txt'`
-    in Windows `python Script_DiLei.py 'A_cp.txt' 'B_FOCtree.txt' 'B_FOCtree_out.txt'`
+    example in linux :- `sudo python ./Script_newick_format.py 'A_cp.txt' 'B_FOCtree.txt' 'B_FOCtree_out.txt'`
+    in Windows `python Script_newick_format.py 'A_cp.txt' 'B_FOCtree.txt' 'B_FOCtree_out.txt'`
     The output file 'B_FOCtree_new1.txt' will be in the same directory/folder as well.
 
 ## Project status: 
