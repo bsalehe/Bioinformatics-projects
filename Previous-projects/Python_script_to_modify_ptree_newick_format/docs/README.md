@@ -16,4 +16,8 @@ Milestones:
 
 Deliverables: Working Python script.
 
+Running Script:
+To run script, type
+`./script_newick_format.py inputfile1.txt outfile1.txt`
+
 Project status: Completed and Signed-off.
