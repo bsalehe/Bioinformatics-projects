@@ -1,0 +1,8 @@
+You deleted an attachment from this message. The original MIME headers for the attachment were:
+Content-Type: text/plain; name="B_FOCtree.txt"
+Content-Description: B_FOCtree.txt
+Content-Disposition: attachment; filename="B_FOCtree.txt"; size=305511;
+	creation-date="Thu, 04 Oct 2018 14:43:13 GMT";
+	modification-date="Thu, 04 Oct 2018 14:44:17 GMT"
+Content-Transfer-Encoding: base64
+
