@@ -8,5 +8,7 @@ There were three projects that have been approved with their titles mentioned be
 
 - The cultural heritage of Britain’s herbal traditions: exploring Viking influences - Bespoke scripting: Prf. Julkie Hawkins
 
-One project has been completed and two were not completed due mostly the impact of coronavirus pandemic.
+- The effect of accelerated ageing on RNA transcript length - Dr. Sam Boateng
+
+One project has been completed and others were not completed due mostly the impact of coronavirus pandemic.
 
