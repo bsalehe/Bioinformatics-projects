@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+#
+
+for f in *.xlsx
+do
+	cat("import pandas as pd") > rm_dup.py
+	cat("data = pd.read_excel('$file')") >> rm_dup.py
+	cat("data.sort_values('species', inplace=True)") >> rm_dup.py
+	cat("data.drop_duplicates(subset = 'species', keep = False, inplace = True)") >> rm_dup.py
+	cat("df=pd.DataFrame(data)") >> rm_dup.py
+	cat("df.to_excel('$file'&'_no_dup.xlsx')") >> rm_dup.py
+done
+

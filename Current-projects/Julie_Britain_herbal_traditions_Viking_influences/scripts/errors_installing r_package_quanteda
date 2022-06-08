@@ -1,0 +1,48 @@
+Error : package ‘xml2’ was installed by an R version with different internals; it needs to be reinstalled for use with this R version
+ERROR: lazy loading failed for package ‘tm’
+* removing ‘/usr/local/lib/R/site-library/tm’
+ERROR: dependency ‘tidyr’ is not available for package ‘RSSL’
+* removing ‘/usr/local/lib/R/site-library/RSSL’
+ERROR: dependency ‘tm’ is not available for package ‘topicmodels’
+* removing ‘/usr/local/lib/R/site-library/topicmodels’
+ERROR: dependencies ‘quanteda’, ‘RSSL’ are not available for package ‘quanteda.textmodels’
+* removing ‘/usr/local/lib/R/site-library/quanteda.textmodels’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1BblCG/downloaded_packages’
+There were 15 warnings (use warnings() to see them)
+> wrnings()
+Error in wrnings() : could not find function "wrnings"
+> warnings()
+Warning messages:
+1: In install.packages("quanteda", dependencies = TRUE) :
+  installation of package ‘dplyr’ had non-zero exit status
+2: In install.packages("quanteda", dependencies = TRUE) :
+  installation of package ‘crosstalk’ had non-zero exit status
+3: In install.packages("quanteda", dependencies = TRUE) :
+  installation of package ‘lsa’ had non-zero exit status
+4: In install.packages("quanteda", dependencies = TRUE) :
+  installation of package ‘spacyr’ had non-zero exit status
+5: In install.packages("quanteda", dependencies = TRUE) :
+  installation of package ‘svs’ had non-zero exit status
+6: In install.packages("quanteda", dependencies = TRUE) :
+  installation of package ‘tokenizers’ had non-zero exit status
+7: In install.packages("quanteda", dependencies = TRUE) :
+  installation of package ‘quanteda’ had non-zero exit status
+8: In install.packages("quanteda", dependencies = TRUE) :
+  installation of package ‘tidyr’ had non-zero exit status
+9: In install.packages("quanteda", dependencies = TRUE) :
+  installation of package ‘DT’ had non-zero exit status
+10: In install.packages("quanteda", dependencies = TRUE) :
+  installation of package ‘stm’ had non-zero exit status
+11: In install.packages("quanteda", dependencies = TRUE) :
+  installation of package ‘tidytext’ had non-zero exit status
+12: In install.packages("quanteda", dependencies = TRUE) :
+  installation of package ‘tm’ had non-zero exit status
+13: In install.packages("quanteda", dependencies = TRUE) :
+  installation of package ‘RSSL’ had non-zero exit status
+14: In install.packages("quanteda", dependencies = TRUE) :
+  installation of package ‘topicmodels’ had non-zero exit status
+15: In install.packages("quanteda", dependencies = TRUE) :
+  installation of package ‘quanteda.textmodels’ had non-zero exit status
+
