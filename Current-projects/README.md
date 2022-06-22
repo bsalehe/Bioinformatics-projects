@@ -1,4 +1,4 @@
-This folder contains all current bioinformatics support projects in 2020
+This folder contains all bioinformatics support projects in 2020
 
 There were three projects that have been approved with their titles mentioned below:-
 
